@@ -3,7 +3,7 @@ using NUlid;
 
 namespace accountingwebapi.Models.App
 {
-    public class SubAccounts : AuditedEntity
+    public class SubAccount : AuditedEntity
     {
         public Ulid Id { get; set; }
         public AccountCategory AccountCateg { get; set; }
