@@ -1,0 +1,158 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Development\\accountingwebapi\\accountingwebapi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\models\\app\\individualaccounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:models\\app\\individualaccounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\models\\app\\auditedentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:models\\app\\auditedentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\models\\app\\chartofaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:models\\app\\chartofaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\models\\app\\subaccounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:models\\app\\subaccounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\enum\\accountcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:enum\\accountcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE15F88-68EE-42E5-976E-3A235BB23B01}|..\\accountingwebapi.Tests\\accountingwebapi.Tests.csproj|c:\\development\\accountingwebapi\\accountingwebapi.tests\\accountingwebapi.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCE15F88-68EE-42E5-976E-3A235BB23B01}|..\\accountingwebapi.Tests\\accountingwebapi.Tests.csproj|c:\\development\\accountingwebapi\\accountingwebapi.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IndividualAccounts.cs",
+              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Models\\App\\IndividualAccounts.cs",
+              "RelativeDocumentMoniker": "Models\\App\\IndividualAccounts.cs",
+              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Models\\App\\IndividualAccounts.cs",
+              "RelativeToolTip": "Models\\App\\IndividualAccounts.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T08:55:25.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuditedEntity.cs",
+              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Models\\App\\AuditedEntity.cs",
+              "RelativeDocumentMoniker": "Models\\App\\AuditedEntity.cs",
+              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Models\\App\\AuditedEntity.cs",
+              "RelativeToolTip": "Models\\App\\AuditedEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T08:54:09.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SubAccounts.cs",
+              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Models\\App\\SubAccounts.cs",
+              "RelativeDocumentMoniker": "Models\\App\\SubAccounts.cs",
+              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Models\\App\\SubAccounts.cs",
+              "RelativeToolTip": "Models\\App\\SubAccounts.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T08:49:17.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountCategory.cs",
+              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Enum\\AccountCategory.cs",
+              "RelativeDocumentMoniker": "Enum\\AccountCategory.cs",
+              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Enum\\AccountCategory.cs",
+              "RelativeToolTip": "Enum\\AccountCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T08:44:28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChartOfAccount.cs",
+              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Models\\App\\ChartOfAccount.cs",
+              "RelativeDocumentMoniker": "Models\\App\\ChartOfAccount.cs",
+              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Models\\App\\ChartOfAccount.cs",
+              "RelativeToolTip": "Models\\App\\ChartOfAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T08:42:39.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T08:38:53.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "accountingwebapi.Tests",
+              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi.Tests\\accountingwebapi.Tests.csproj",
+              "RelativeDocumentMoniker": "..\\accountingwebapi.Tests\\accountingwebapi.Tests.csproj",
+              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi.Tests\\accountingwebapi.Tests.csproj",
+              "RelativeToolTip": "..\\accountingwebapi.Tests\\accountingwebapi.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-08T08:34:06.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "..\\accountingwebapi.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "..\\accountingwebapi.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T08:34:00.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
