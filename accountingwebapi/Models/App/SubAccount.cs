@@ -1,5 +1,4 @@
 ﻿using accountingwebapi.Enum;
-using NUlid;
 
 namespace accountingwebapi.Models.App
 {

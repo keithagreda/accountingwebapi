@@ -1,5 +1,4 @@
-﻿using NUlid;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 
 namespace accountingwebapi.Models.App
 {
@@ -9,7 +8,7 @@ namespace accountingwebapi.Models.App
         public decimal AmountDebit { get; set; }
         public decimal AmountCredit { get; set; }
         public DateTimeOffset TransactionDate { get; set; }
-        public Ulid? AccountingPeriodId { get; set; }
+        public int AccountingPeriodId { get; set; }
 
         [ForeignKey("AccountingPeriodId")]
         public AccountingPeriod AccountingPeriodFk { get; set; }

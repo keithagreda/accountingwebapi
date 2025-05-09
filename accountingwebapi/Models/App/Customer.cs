@@ -1,5 +1,4 @@
-﻿using NUlid;
-
+﻿
 namespace accountingwebapi.Models.App
 {
     public class Customer : AuditedEntity

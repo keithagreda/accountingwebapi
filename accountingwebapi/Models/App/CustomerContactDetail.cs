@@ -1,5 +1,4 @@
 ﻿using accountingwebapi.Enum;
-using NUlid;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace accountingwebapi.Models.App
