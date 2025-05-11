@@ -483,3 +483,7 @@ $RECYCLE.BIN/
 # Vim temporary swap files
 *.swp
 *.v2
+accountingwebapi/.vs/accountingwebapi/DesignTimeBuild/.dtbcache.v2
+accountingwebapi/.vs/accountingwebapi/v17/.futdcache.v2
+accountingwebapi/.vs/accountingwebapi/v17/DocumentLayout.backup.json
+accountingwebapi/.vs/accountingwebapi/v17/DocumentLayout.json
