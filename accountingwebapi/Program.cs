@@ -1,4 +1,8 @@
-using accountingwebapi.Context;
+﻿using accountingwebapi.Context;
+using accountingwebapi.Interfaces.Repositories;
+using accountingwebapi.Interfaces.Services;
+using accountingwebapi.Services;
+using accountingwebapi.UnitOfWork;
 using Microsoft.EntityFrameworkCore;
 using POSIMSWebApi.Interceptors;
 
@@ -15,6 +19,14 @@ if (builder.Environment.IsDevelopment())
     builder.Configuration.AddUserSecrets<Program>();
 }
 
+builder.Services.AddOpenApiDocument(config =>
+{
+    config.Title = "Accounting Web Api";
+    config.Description = "API documentation for Accounting Web Api using NSwag.";
+    config.Version = "v1";
+
+});
+
 
 //CONTEXT
 builder.Services.AddDbContext<AcctgContext>(options =>
@@ -29,7 +41,12 @@ builder.Services.AddDbContext<AcctgContext>(options =>
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddScoped<AuditInterceptor>();
 
+
 //SERVICES
+builder.Services.AddHttpClient(); // ✅ Needed for IHttpClientFactory
+builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
+builder.Services.AddScoped<ISubAccountService, SubAccountService>();
+
 
 var app = builder.Build();
 
@@ -37,6 +54,8 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
+    app.UseOpenApi();    
+    app.UseReDoc();     
 
 }
 

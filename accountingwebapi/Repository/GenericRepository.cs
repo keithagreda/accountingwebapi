@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using POSIMSWebApi;
 using accountingwebapi.Context;
 using accountingwebapi.Models.App;
-using Interfaces;
+using accountingwebapi.Interfaces.Repositories;
 
 namespace Repository
 {
