@@ -3,9 +3,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace accountingwebapi.Models.App
 {
-    public class CustomerContactDetail : AuditedEntity
+    public class CustomerContactDetail : AuditedEntityUlid
     {
-        public Ulid Id { get; set; }
         public string Details { get; set; }
         public ContactDetailType Type { get; set; }
 

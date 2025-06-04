@@ -11,4 +11,10 @@
         public DateTimeOffset? DeletionTime { get; set; }
         public Guid? DeletedBy { get; set; }
     }
+
+    public abstract class AuditedEntityUlid : AuditedEntity
+    {
+        public Ulid Id { get; set; } = Ulid.NewUlid();
+    }
+
 }

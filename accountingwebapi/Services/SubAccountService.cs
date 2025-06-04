@@ -57,5 +57,58 @@ namespace accountingwebapi.Services
             await _unitOfWork.DisposeAsync();
             return Result.Success();
         }
+
+        public async Task<Result> SeedSubAccount()
+        {
+            var listOfSubAccounts = new List<SubAccount>
+            {
+                new SubAccount
+                {
+                    Name = "Current Assets",
+                    AccountCateg = Enum.AccountCategory.Assets
+                },
+                new SubAccount
+                {
+                    Name = "Fixed Assets",
+                    AccountCateg = Enum.AccountCategory.Assets
+                },
+                new SubAccount
+                {
+                    Name = "Current Liabilities",
+                    AccountCateg = Enum.AccountCategory.Liabilities
+                },
+                new SubAccount
+                {
+                    Name = "Fixed Liabilities",
+                    AccountCateg = Enum.AccountCategory.Liabilities
+                },
+                new SubAccount
+                {
+                    Name = "Equity",
+                    AccountCateg = Enum.AccountCategory.Equity
+                },
+                new SubAccount
+                {
+                    Name = "Expenses",
+                    AccountCateg = Enum.AccountCategory.Expenses
+                },
+                new SubAccount
+                {
+                    Name = "Revenue",
+                    AccountCateg = Enum.AccountCategory.Revenue
+                },
+                new SubAccount
+                {
+                    Name = "Contra Revenue",
+                    AccountCateg = Enum.AccountCategory.Revenue
+                }
+            };
+
+                    // Add to DB
+            await _unitOfWork.SubAccount.AddRangeAsync(listOfSubAccounts);
+            await _unitOfWork.CompleteAsync();
+
+            return Result.Success();
+        }
     }
 }

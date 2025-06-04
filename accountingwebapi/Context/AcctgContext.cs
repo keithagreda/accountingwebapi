@@ -24,8 +24,6 @@ namespace accountingwebapi.Context
         {
             optionsBuilder.AddInterceptors(_auditInterceptor);
         }
-
-
         public DbSet<IndividualAccount> IndividualAccounts { get; set; }
         public DbSet<JournalEntry> JournalEntries { get; set; }
         public DbSet<SubAccount> SubAccounts { get; set; }
@@ -41,6 +39,9 @@ namespace accountingwebapi.Context
             {
                 entity.Property(e => e.Id).HasConversion<UlidToStringConverter>();
                 entity.Property(e => e.AdjustsEntryId).HasConversion<UlidToStringConverter>();
+                entity.Property(e => e.IndividualAccountId).HasConversion<UlidToStringConverter>();
+                entity.Property(e => e.CompanyId).HasConversion<UlidToStringConverter>();
+                entity.Property(e => e.CustomerFk).HasConversion<UlidToStringConverter>();
             });
 
             modelBuilder.Entity<IndividualAccount>(entity =>
@@ -60,6 +61,10 @@ namespace accountingwebapi.Context
                 .HasConversion<UlidToStringConverter>();
 
             modelBuilder.Entity<Customer>()
+                .Property(e => e.Id)
+                .HasConversion<UlidToStringConverter>();
+
+            modelBuilder.Entity<Company>()
                 .Property(e => e.Id)
                 .HasConversion<UlidToStringConverter>();
         }

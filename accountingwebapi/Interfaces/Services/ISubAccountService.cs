@@ -7,5 +7,6 @@ namespace accountingwebapi.Interfaces.Services
     {
         Task<Result> CreateOrEdit(CreateOrEditSubAccountDto input);
         Task<Result<List<GetSubAccountForViewDto>>> GetAll();
+        Task<Result> SeedSubAccount();
     }
 }

@@ -2,12 +2,28 @@
 
 namespace accountingwebapi.Models.App
 {
-    public class JournalEntry : AuditedEntity
+    public class JournalEntry : AuditedEntityUlid
     {
-        public Ulid Id { get; set; }
         public decimal AmountDebit { get; set; }
         public decimal AmountCredit { get; set; }
         public DateTimeOffset TransactionDate { get; set; }
+
+        public Ulid IndividualAccountId { get; set; }
+
+        [ForeignKey("IndividualAccountId")]
+        public IndividualAccount IndividualAccountFk { get; set; }
+
+        public Ulid CompanyId { get; set; }
+
+        [ForeignKey("CompanyId")]
+        public Company CompanyFk { get; set; }
+
+        public Ulid? CustomerId { get; set; }
+
+        [ForeignKey("CustomerId")]
+        public Customer CustomerFk { get; set; }
+
+
         public int AccountingPeriodId { get; set; }
 
         [ForeignKey("AccountingPeriodId")]
@@ -18,7 +34,6 @@ namespace accountingwebapi.Models.App
         public JournalEntry AdjustsEntryFk { get; set; }
         public ICollection<JournalEntry> AdjustingEntries { get; set; } // All entries that adjust this one
         public bool IsAdjustment { get; set; }
-
         //void
         public bool IsVoided { get; set; } = false;
         public string VoidedReason { get; set; }

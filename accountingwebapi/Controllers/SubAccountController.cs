@@ -50,5 +50,25 @@ namespace accountingwebapi.Controllers
                 throw;
             }
         }
+
+        [HttpPost("SeedSubAccount")]
+        public async Task<ActionResult<Result>> SeedSubAccount()
+        {
+            try
+            {
+                if (!ModelState.IsValid)
+                {
+                    return BadRequest(ModelState);
+                }
+
+                return Ok(await _subAccountService.SeedSubAccount());
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
+
     }
 }

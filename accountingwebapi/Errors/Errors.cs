@@ -10,6 +10,8 @@ namespace accountingwebapi.Errors
             Error.Custom("Validation.Required", $"{fieldName} is required.");
             public static Error TooShort(string field, int minLength) =>
                 new("Validation.TooShort", $"{field} must be at least {minLength} characters.");
+            public static Error AlreadyExists(string field) =>
+                new("Validation.AlreadyExists", $"{field} already exists.");
         }
 
         public static class User
