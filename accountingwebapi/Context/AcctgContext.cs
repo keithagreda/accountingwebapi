@@ -1,5 +1,7 @@
-﻿using accountingwebapi.Models.App;
+﻿using accountingwebapi.ModelBuilderExtensions;
+using accountingwebapi.Models.App;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using POSIMSWebApi.Interceptors;
 using System.Xml;
@@ -47,6 +49,7 @@ namespace accountingwebapi.Context
 
             modelBuilder.Entity<EntryTemplateLine>(entity =>
             {
+                entity.ApplyAuditedEntityConfiguration();
                 entity.Property(e => e.Id).HasConversion<UlidToStringConverter>();
                 entity.Property(e => e.TemplateId).HasConversion<UlidToStringConverter>();
                 entity.Property(e => e.AccountId).HasConversion<UlidToStringConverter>();
@@ -54,6 +57,7 @@ namespace accountingwebapi.Context
 
             modelBuilder.Entity<JournalEntry>(entity =>
             {
+                entity.ApplyAuditedEntityConfiguration();
                 entity.Property(e => e.Id).HasConversion<UlidToStringConverter>();
                 entity.Property(e => e.AdjustsEntryId).HasConversion<UlidToStringConverter>();
                 entity.Property(e => e.CompanyId).HasConversion<UlidToStringConverter>();
@@ -62,6 +66,7 @@ namespace accountingwebapi.Context
 
             modelBuilder.Entity<JournalEntryLine>(entity =>
             {
+                entity.ApplyAuditedEntityConfiguration();
                 entity.Property(e => e.Id).HasConversion<UlidToStringConverter>();
                 entity.Property(e => e.JournalEntryId).HasConversion<UlidToStringConverter>();
                 entity.Property(e => e.IndividualAccountId).HasConversion<UlidToStringConverter>();
@@ -73,27 +78,37 @@ namespace accountingwebapi.Context
 
             modelBuilder.Entity<IndividualAccount>(entity =>
             {
+                entity.ApplyAuditedEntityConfiguration();
                 entity.Property(e => e.Id).HasConversion<UlidToStringConverter>();
                 entity.Property(e => e.SubAccountId).HasConversion<UlidToStringConverter>();
             });
 
             modelBuilder.Entity<CustomerContactDetail>(entity =>
             {
+                entity.ApplyAuditedEntityConfiguration();
                 entity.Property(e => e.Id).HasConversion<UlidToStringConverter>();
                 entity.Property(e => e.CustomerId).HasConversion<UlidToStringConverter>();
             });
 
-            modelBuilder.Entity<SubAccount>()
-                .Property(e => e.Id)
-                .HasConversion<UlidToStringConverter>();
+            modelBuilder.Entity<SubAccount>(entity =>
+            {
+                entity.ApplyAuditedEntityConfiguration();
+                entity.Property(e => e.Id).HasConversion<UlidToStringConverter>();
+            });
 
-            modelBuilder.Entity<Customer>()
-                .Property(e => e.Id)
-                .HasConversion<UlidToStringConverter>();
 
-            modelBuilder.Entity<Company>()
-                .Property(e => e.Id)
-                .HasConversion<UlidToStringConverter>();
+            modelBuilder.Entity<Customer>(entity =>
+            {
+                entity.ApplyAuditedEntityConfiguration();
+                entity.Property(e => e.Id).HasConversion<UlidToStringConverter>();
+            });
+
+            modelBuilder.Entity<Company>(entity =>
+            {
+                entity.ApplyAuditedEntityConfiguration();
+                entity.Property(e => e.Id).HasConversion<UlidToStringConverter>();
+            });
+                
         }
 
         public class UlidToBytesConverter : ValueConverter<Ulid, byte[]>
