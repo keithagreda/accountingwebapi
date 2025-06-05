@@ -26,22 +26,49 @@ namespace accountingwebapi.Context
         }
         public DbSet<IndividualAccount> IndividualAccounts { get; set; }
         public DbSet<JournalEntry> JournalEntries { get; set; }
+        public DbSet<JournalEntryLine> JournalEntryLines { get; set; }
+
+        public DbSet<EntryTemplate> EntryTemplates { get; set; }
+        public DbSet<EntryTemplateLine> EntryTemplateLines { get; set; }
         public DbSet<SubAccount> SubAccounts { get; set; }
         public DbSet<Customer> Customers { get; set; }
         public DbSet<CustomerContactDetail> CustomerContactDetail { get; set; }
         public DbSet<AccountingPeriod> AccountingPeriods { get; set; }
 
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<EntryTemplate>(entity =>
+            {
+                entity.Property(e => e.Id).HasConversion<UlidToStringConverter>();
+            });
+
+            modelBuilder.Entity<EntryTemplateLine>(entity =>
+            {
+                entity.Property(e => e.Id).HasConversion<UlidToStringConverter>();
+                entity.Property(e => e.TemplateId).HasConversion<UlidToStringConverter>();
+                entity.Property(e => e.AccountId).HasConversion<UlidToStringConverter>();
+            });
 
             modelBuilder.Entity<JournalEntry>(entity =>
             {
                 entity.Property(e => e.Id).HasConversion<UlidToStringConverter>();
                 entity.Property(e => e.AdjustsEntryId).HasConversion<UlidToStringConverter>();
-                entity.Property(e => e.IndividualAccountId).HasConversion<UlidToStringConverter>();
                 entity.Property(e => e.CompanyId).HasConversion<UlidToStringConverter>();
-                entity.Property(e => e.CustomerFk).HasConversion<UlidToStringConverter>();
+                entity.Property(e => e.CustomerId).HasConversion<UlidToStringConverter>();
+            });
+
+            modelBuilder.Entity<JournalEntryLine>(entity =>
+            {
+                entity.Property(e => e.Id).HasConversion<UlidToStringConverter>();
+                entity.Property(e => e.JournalEntryId).HasConversion<UlidToStringConverter>();
+                entity.Property(e => e.IndividualAccountId).HasConversion<UlidToStringConverter>();
+
+                // Optional: enforce required debit/credit behavior
+                entity.Property(e => e.Amount).HasColumnType("decimal(18,5)").IsRequired();
+                entity.Property(e => e.IsDebit).IsRequired();
             });
 
             modelBuilder.Entity<IndividualAccount>(entity =>

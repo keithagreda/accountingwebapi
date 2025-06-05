@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using accountingwebapi.Context;
@@ -11,9 +12,11 @@ using accountingwebapi.Context;
 namespace accountingwebapi.Migrations
 {
     [DbContext(typeof(AcctgContext))]
-    partial class AcctgContextModelSnapshot : ModelSnapshot
+    [Migration("20250605024850_addedJournalEntryLine")]
+    partial class addedJournalEntryLine
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -197,93 +200,6 @@ namespace accountingwebapi.Migrations
                     b.ToTable("CustomerContactDetail");
                 });
 
-            modelBuilder.Entity("accountingwebapi.Models.App.EntryTemplate", b =>
-                {
-                    b.Property<string>("Id")
-                        .HasColumnType("character varying(26)");
-
-                    b.Property<Guid>("CreatedBy")
-                        .HasColumnType("uuid");
-
-                    b.Property<DateTimeOffset>("CreationTime")
-                        .HasColumnType("timestamp with time zone");
-
-                    b.Property<Guid?>("DeletedBy")
-                        .HasColumnType("uuid");
-
-                    b.Property<DateTimeOffset?>("DeletionTime")
-                        .HasColumnType("timestamp with time zone");
-
-                    b.Property<string>("EntryType")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("boolean");
-
-                    b.Property<bool>("IsModified")
-                        .HasColumnType("boolean");
-
-                    b.Property<Guid?>("ModifiedBy")
-                        .HasColumnType("uuid");
-
-                    b.Property<DateTimeOffset?>("ModifiedTime")
-                        .HasColumnType("timestamp with time zone");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("EntryTemplates");
-                });
-
-            modelBuilder.Entity("accountingwebapi.Models.App.EntryTemplateLine", b =>
-                {
-                    b.Property<string>("Id")
-                        .HasColumnType("character varying(26)");
-
-                    b.Property<string>("AccountId")
-                        .IsRequired()
-                        .HasColumnType("character varying(26)");
-
-                    b.Property<Guid>("CreatedBy")
-                        .HasColumnType("uuid");
-
-                    b.Property<DateTimeOffset>("CreationTime")
-                        .HasColumnType("timestamp with time zone");
-
-                    b.Property<Guid?>("DeletedBy")
-                        .HasColumnType("uuid");
-
-                    b.Property<DateTimeOffset?>("DeletionTime")
-                        .HasColumnType("timestamp with time zone");
-
-                    b.Property<bool>("IsDebit")
-                        .HasColumnType("boolean");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("boolean");
-
-                    b.Property<bool>("IsModified")
-                        .HasColumnType("boolean");
-
-                    b.Property<Guid?>("ModifiedBy")
-                        .HasColumnType("uuid");
-
-                    b.Property<DateTimeOffset?>("ModifiedTime")
-                        .HasColumnType("timestamp with time zone");
-
-                    b.Property<string>("TemplateId")
-                        .IsRequired()
-                        .HasColumnType("character varying(26)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("AccountId");
-
-                    b.HasIndex("TemplateId");
-
-                    b.ToTable("EntryTemplateLines");
-                });
-
             modelBuilder.Entity("accountingwebapi.Models.App.IndividualAccount", b =>
                 {
                     b.Property<string>("Id")
@@ -383,8 +299,9 @@ namespace accountingwebapi.Migrations
                     b.Property<DateTimeOffset>("TransactionDate")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<Guid?>("VoidedBy")
-                        .HasColumnType("uuid");
+                    b.Property<string>("VoidedBy")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.Property<DateTime?>("VoidedOn")
                         .HasColumnType("timestamp without time zone");
@@ -459,7 +376,7 @@ namespace accountingwebapi.Migrations
 
                     b.HasIndex("JournalEntryId");
 
-                    b.ToTable("JournalEntryLines");
+                    b.ToTable("JournalEntryLine");
                 });
 
             modelBuilder.Entity("accountingwebapi.Models.App.SubAccount", b =>
@@ -510,25 +427,6 @@ namespace accountingwebapi.Migrations
                         .HasForeignKey("CustomerId");
 
                     b.Navigation("CustomerFk");
-                });
-
-            modelBuilder.Entity("accountingwebapi.Models.App.EntryTemplateLine", b =>
-                {
-                    b.HasOne("accountingwebapi.Models.App.IndividualAccount", "Account")
-                        .WithMany()
-                        .HasForeignKey("AccountId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("accountingwebapi.Models.App.EntryTemplate", "Template")
-                        .WithMany("Lines")
-                        .HasForeignKey("TemplateId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Account");
-
-                    b.Navigation("Template");
                 });
 
             modelBuilder.Entity("accountingwebapi.Models.App.IndividualAccount", b =>
@@ -595,11 +493,6 @@ namespace accountingwebapi.Migrations
             modelBuilder.Entity("accountingwebapi.Models.App.Customer", b =>
                 {
                     b.Navigation("CustomerContactDetails");
-                });
-
-            modelBuilder.Entity("accountingwebapi.Models.App.EntryTemplate", b =>
-                {
-                    b.Navigation("Lines");
                 });
 
             modelBuilder.Entity("accountingwebapi.Models.App.JournalEntry", b =>

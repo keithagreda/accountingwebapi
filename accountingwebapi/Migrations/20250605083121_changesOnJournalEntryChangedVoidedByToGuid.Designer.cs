@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using accountingwebapi.Context;
@@ -11,9 +12,11 @@ using accountingwebapi.Context;
 namespace accountingwebapi.Migrations
 {
     [DbContext(typeof(AcctgContext))]
-    partial class AcctgContextModelSnapshot : ModelSnapshot
+    [Migration("20250605083121_changesOnJournalEntryChangedVoidedByToGuid")]
+    partial class changesOnJournalEntryChangedVoidedByToGuid
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

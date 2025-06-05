@@ -8,6 +8,5 @@ namespace accountingwebapi.Models.App
         public Ulid SubAccountId { get; set; }
         [ForeignKey("SubAccountId")]
         public SubAccount SubAccountFk { get; set; }
-
     }
 }

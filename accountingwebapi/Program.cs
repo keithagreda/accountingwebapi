@@ -47,6 +47,9 @@ builder.Services.AddScoped<AuditInterceptor>();
 builder.Services.AddHttpClient(); // ✅ Needed for IHttpClientFactory
 builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<ISubAccountService, SubAccountService>();
+builder.Services.AddScoped<IIndividualAccountService, IndividualAccountService>();
+builder.Services.AddScoped<IJournalEntryService, JournalEntryService>();
+builder.Services.AddScoped<IAccountingPeriodService, AccountingPeriodService>();
 
 
 var app = builder.Build();

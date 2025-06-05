@@ -4,40 +4,34 @@ namespace accountingwebapi.Models.App
 {
     public class JournalEntry : AuditedEntityUlid
     {
-        public decimal AmountDebit { get; set; }
-        public decimal AmountCredit { get; set; }
         public DateTimeOffset TransactionDate { get; set; }
-
-        public Ulid IndividualAccountId { get; set; }
-
-        [ForeignKey("IndividualAccountId")]
-        public IndividualAccount IndividualAccountFk { get; set; }
+        public string Description { get; set; }
 
         public Ulid CompanyId { get; set; }
-
-        [ForeignKey("CompanyId")]
+        [ForeignKey(nameof(CompanyId))]
         public Company CompanyFk { get; set; }
 
         public Ulid? CustomerId { get; set; }
-
-        [ForeignKey("CustomerId")]
+        [ForeignKey(nameof(CustomerId))]
         public Customer CustomerFk { get; set; }
 
-
         public int AccountingPeriodId { get; set; }
-
-        [ForeignKey("AccountingPeriodId")]
+        [ForeignKey(nameof(AccountingPeriodId))]
         public AccountingPeriod AccountingPeriodFk { get; set; }
 
-        //Adjustments
-        public Ulid AdjustsEntryId { get; set; }
+        // Adjustments (Self-referencing)
+        public Ulid? AdjustsEntryId { get; set; }
+        [ForeignKey(nameof(AdjustsEntryId))]
         public JournalEntry AdjustsEntryFk { get; set; }
-        public ICollection<JournalEntry> AdjustingEntries { get; set; } // All entries that adjust this one
+        public ICollection<JournalEntry> AdjustingEntries { get; set; } = new List<JournalEntry>();
         public bool IsAdjustment { get; set; }
-        //void
+
+        // Void
         public bool IsVoided { get; set; } = false;
-        public string VoidedReason { get; set; }
+        public string? VoidedReason { get; set; }
         public DateTime? VoidedOn { get; set; }
-        public string VoidedBy { get; set; }
+        public Guid? VoidedBy { get; set; }
+
+        public ICollection<JournalEntryLine> Lines { get; set; } = new List<JournalEntryLine>();
     }
 }

@@ -37,6 +37,26 @@ namespace accountingwebapi.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Company",
+                columns: table => new
+                {
+                    Id = table.Column<string>(type: "character varying(26)", nullable: false),
+                    Name = table.Column<string>(type: "text", nullable: false),
+                    CreationTime = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: false),
+                    CreatedBy = table.Column<Guid>(type: "uuid", nullable: false),
+                    ModifiedTime = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: true),
+                    ModifiedBy = table.Column<Guid>(type: "uuid", nullable: true),
+                    IsModified = table.Column<bool>(type: "boolean", nullable: false),
+                    IsDeleted = table.Column<bool>(type: "boolean", nullable: false),
+                    DeletionTime = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: true),
+                    DeletedBy = table.Column<Guid>(type: "uuid", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Company", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Customers",
                 columns: table => new
                 {
@@ -79,48 +99,6 @@ namespace accountingwebapi.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "JournalEntries",
-                columns: table => new
-                {
-                    Id = table.Column<string>(type: "character varying(26)", nullable: false),
-                    AmountDebit = table.Column<decimal>(type: "numeric", nullable: false),
-                    AmountCredit = table.Column<decimal>(type: "numeric", nullable: false),
-                    TransactionDate = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: false),
-                    AccountingPeriodId = table.Column<int>(type: "integer", nullable: false),
-                    AdjustsEntryId = table.Column<string>(type: "character varying(26)", nullable: false),
-                    AdjustsEntryFkId = table.Column<string>(type: "character varying(26)", nullable: false),
-                    IsAdjustment = table.Column<bool>(type: "boolean", nullable: false),
-                    IsVoided = table.Column<bool>(type: "boolean", nullable: false),
-                    VoidedReason = table.Column<string>(type: "text", nullable: false),
-                    VoidedOn = table.Column<DateTime>(type: "timestamp without time zone", nullable: true),
-                    VoidedBy = table.Column<string>(type: "text", nullable: false),
-                    CreationTime = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: false),
-                    CreatedBy = table.Column<Guid>(type: "uuid", nullable: false),
-                    ModifiedTime = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: true),
-                    ModifiedBy = table.Column<Guid>(type: "uuid", nullable: true),
-                    IsModified = table.Column<bool>(type: "boolean", nullable: false),
-                    IsDeleted = table.Column<bool>(type: "boolean", nullable: false),
-                    DeletionTime = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: true),
-                    DeletedBy = table.Column<Guid>(type: "uuid", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_JournalEntries", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_JournalEntries_AccountingPeriods_AccountingPeriodId",
-                        column: x => x.AccountingPeriodId,
-                        principalTable: "AccountingPeriods",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_JournalEntries_JournalEntries_AdjustsEntryFkId",
-                        column: x => x.AdjustsEntryFkId,
-                        principalTable: "JournalEntries",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "CustomerContactDetail",
                 columns: table => new
                 {
@@ -154,7 +132,6 @@ namespace accountingwebapi.Migrations
                     Id = table.Column<string>(type: "character varying(26)", nullable: false),
                     Description = table.Column<string>(type: "text", nullable: false),
                     SubAccountId = table.Column<string>(type: "character varying(26)", nullable: false),
-                    CustomerId = table.Column<string>(type: "character varying(26)", nullable: true),
                     CreationTime = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: false),
                     CreatedBy = table.Column<Guid>(type: "uuid", nullable: false),
                     ModifiedTime = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: true),
@@ -168,11 +145,6 @@ namespace accountingwebapi.Migrations
                 {
                     table.PrimaryKey("PK_IndividualAccounts", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_IndividualAccounts_Customers_CustomerId",
-                        column: x => x.CustomerId,
-                        principalTable: "Customers",
-                        principalColumn: "Id");
-                    table.ForeignKey(
                         name: "FK_IndividualAccounts_SubAccounts_SubAccountId",
                         column: x => x.SubAccountId,
                         principalTable: "SubAccounts",
@@ -180,14 +152,71 @@ namespace accountingwebapi.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "JournalEntries",
+                columns: table => new
+                {
+                    Id = table.Column<string>(type: "character varying(26)", nullable: false),
+                    AmountDebit = table.Column<decimal>(type: "numeric", nullable: false),
+                    AmountCredit = table.Column<decimal>(type: "numeric", nullable: false),
+                    TransactionDate = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: false),
+                    IndividualAccountId = table.Column<string>(type: "character varying(26)", nullable: false),
+                    CompanyId = table.Column<string>(type: "character varying(26)", nullable: false),
+                    CustomerId = table.Column<string>(type: "character varying(26)", nullable: true),
+                    AccountingPeriodId = table.Column<int>(type: "integer", nullable: false),
+                    AdjustsEntryId = table.Column<string>(type: "character varying(26)", nullable: false),
+                    AdjustsEntryFkId = table.Column<string>(type: "character varying(26)", nullable: false),
+                    IsAdjustment = table.Column<bool>(type: "boolean", nullable: false),
+                    IsVoided = table.Column<bool>(type: "boolean", nullable: false),
+                    VoidedReason = table.Column<string>(type: "text", nullable: false),
+                    VoidedOn = table.Column<DateTime>(type: "timestamp without time zone", nullable: true),
+                    VoidedBy = table.Column<string>(type: "text", nullable: false),
+                    CreationTime = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: false),
+                    CreatedBy = table.Column<Guid>(type: "uuid", nullable: false),
+                    ModifiedTime = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: true),
+                    ModifiedBy = table.Column<Guid>(type: "uuid", nullable: true),
+                    IsModified = table.Column<bool>(type: "boolean", nullable: false),
+                    IsDeleted = table.Column<bool>(type: "boolean", nullable: false),
+                    DeletionTime = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: true),
+                    DeletedBy = table.Column<Guid>(type: "uuid", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_JournalEntries", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_JournalEntries_AccountingPeriods_AccountingPeriodId",
+                        column: x => x.AccountingPeriodId,
+                        principalTable: "AccountingPeriods",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_JournalEntries_Company_CompanyId",
+                        column: x => x.CompanyId,
+                        principalTable: "Company",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_JournalEntries_Customers_CustomerId",
+                        column: x => x.CustomerId,
+                        principalTable: "Customers",
+                        principalColumn: "Id");
+                    table.ForeignKey(
+                        name: "FK_JournalEntries_IndividualAccounts_IndividualAccountId",
+                        column: x => x.IndividualAccountId,
+                        principalTable: "IndividualAccounts",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_JournalEntries_JournalEntries_AdjustsEntryFkId",
+                        column: x => x.AdjustsEntryFkId,
+                        principalTable: "JournalEntries",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
             migrationBuilder.CreateIndex(
                 name: "IX_CustomerContactDetail_CustomerId",
                 table: "CustomerContactDetail",
-                column: "CustomerId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_IndividualAccounts_CustomerId",
-                table: "IndividualAccounts",
                 column: "CustomerId");
 
             migrationBuilder.CreateIndex(
@@ -204,6 +233,21 @@ namespace accountingwebapi.Migrations
                 name: "IX_JournalEntries_AdjustsEntryFkId",
                 table: "JournalEntries",
                 column: "AdjustsEntryFkId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_JournalEntries_CompanyId",
+                table: "JournalEntries",
+                column: "CompanyId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_JournalEntries_CustomerId",
+                table: "JournalEntries",
+                column: "CustomerId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_JournalEntries_IndividualAccountId",
+                table: "JournalEntries",
+                column: "IndividualAccountId");
         }
 
         /// <inheritdoc />
@@ -213,19 +257,22 @@ namespace accountingwebapi.Migrations
                 name: "CustomerContactDetail");
 
             migrationBuilder.DropTable(
-                name: "IndividualAccounts");
+                name: "JournalEntries");
 
             migrationBuilder.DropTable(
-                name: "JournalEntries");
+                name: "AccountingPeriods");
+
+            migrationBuilder.DropTable(
+                name: "Company");
 
             migrationBuilder.DropTable(
                 name: "Customers");
 
             migrationBuilder.DropTable(
-                name: "SubAccounts");
+                name: "IndividualAccounts");
 
             migrationBuilder.DropTable(
-                name: "AccountingPeriods");
+                name: "SubAccounts");
         }
     }
 }

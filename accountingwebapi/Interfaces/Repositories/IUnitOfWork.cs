@@ -10,6 +10,9 @@
         IJournalEntryRepository JournalEntry { get; }
         INotificationRepository Notification { get; }
         ISubAccountRepository SubAccount { get; }
+        IJournalEntryLineRepository JournalEntryLine { get; }
+        IEntryTemplateRepository EntryTemplate { get; }
+        IEntryTemplateLineRepository EntryTemplateLine { get; }
 
         int Complete();
         Task<int> CompleteAsync();

@@ -12,7 +12,7 @@ using accountingwebapi.Context;
 namespace accountingwebapi.Migrations
 {
     [DbContext(typeof(AcctgContext))]
-    [Migration("20250509025120_init")]
+    [Migration("20250605004002_init")]
     partial class init
     {
         /// <inheritdoc />
@@ -72,6 +72,44 @@ namespace accountingwebapi.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("AccountingPeriods");
+                });
+
+            modelBuilder.Entity("accountingwebapi.Models.App.Company", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("character varying(26)");
+
+                    b.Property<Guid>("CreatedBy")
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTimeOffset>("CreationTime")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<Guid?>("DeletedBy")
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTimeOffset?>("DeletionTime")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("boolean");
+
+                    b.Property<bool>("IsModified")
+                        .HasColumnType("boolean");
+
+                    b.Property<Guid?>("ModifiedBy")
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTimeOffset?>("ModifiedTime")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Company");
                 });
 
             modelBuilder.Entity("accountingwebapi.Models.App.Customer", b =>
@@ -173,9 +211,6 @@ namespace accountingwebapi.Migrations
                     b.Property<DateTimeOffset>("CreationTime")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<string>("CustomerId")
-                        .HasColumnType("character varying(26)");
-
                     b.Property<Guid?>("DeletedBy")
                         .HasColumnType("uuid");
 
@@ -204,8 +239,6 @@ namespace accountingwebapi.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("CustomerId");
-
                     b.HasIndex("SubAccountId");
 
                     b.ToTable("IndividualAccounts");
@@ -233,17 +266,28 @@ namespace accountingwebapi.Migrations
                     b.Property<decimal>("AmountDebit")
                         .HasColumnType("numeric");
 
+                    b.Property<string>("CompanyId")
+                        .IsRequired()
+                        .HasColumnType("character varying(26)");
+
                     b.Property<Guid>("CreatedBy")
                         .HasColumnType("uuid");
 
                     b.Property<DateTimeOffset>("CreationTime")
                         .HasColumnType("timestamp with time zone");
 
+                    b.Property<string>("CustomerId")
+                        .HasColumnType("character varying(26)");
+
                     b.Property<Guid?>("DeletedBy")
                         .HasColumnType("uuid");
 
                     b.Property<DateTimeOffset?>("DeletionTime")
                         .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("IndividualAccountId")
+                        .IsRequired()
+                        .HasColumnType("character varying(26)");
 
                     b.Property<bool>("IsAdjustment")
                         .HasColumnType("boolean");
@@ -282,6 +326,12 @@ namespace accountingwebapi.Migrations
                     b.HasIndex("AccountingPeriodId");
 
                     b.HasIndex("AdjustsEntryFkId");
+
+                    b.HasIndex("CompanyId");
+
+                    b.HasIndex("CustomerId");
+
+                    b.HasIndex("IndividualAccountId");
 
                     b.ToTable("JournalEntries");
                 });
@@ -338,17 +388,11 @@ namespace accountingwebapi.Migrations
 
             modelBuilder.Entity("accountingwebapi.Models.App.IndividualAccount", b =>
                 {
-                    b.HasOne("accountingwebapi.Models.App.Customer", "CustomerFk")
-                        .WithMany()
-                        .HasForeignKey("CustomerId");
-
                     b.HasOne("accountingwebapi.Models.App.SubAccount", "SubAccountFk")
                         .WithMany()
                         .HasForeignKey("SubAccountId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("CustomerFk");
 
                     b.Navigation("SubAccountFk");
                 });
@@ -367,9 +411,31 @@ namespace accountingwebapi.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("accountingwebapi.Models.App.Company", "CompanyFk")
+                        .WithMany()
+                        .HasForeignKey("CompanyId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("accountingwebapi.Models.App.Customer", "CustomerFk")
+                        .WithMany()
+                        .HasForeignKey("CustomerId");
+
+                    b.HasOne("accountingwebapi.Models.App.IndividualAccount", "IndividualAccountFk")
+                        .WithMany()
+                        .HasForeignKey("IndividualAccountId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("AccountingPeriodFk");
 
                     b.Navigation("AdjustsEntryFk");
+
+                    b.Navigation("CompanyFk");
+
+                    b.Navigation("CustomerFk");
+
+                    b.Navigation("IndividualAccountFk");
                 });
 
             modelBuilder.Entity("accountingwebapi.Models.App.Customer", b =>

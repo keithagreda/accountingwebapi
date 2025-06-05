@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using accountingwebapi.Context;
@@ -11,9 +12,11 @@ using accountingwebapi.Context;
 namespace accountingwebapi.Migrations
 {
     [DbContext(typeof(AcctgContext))]
-    partial class AcctgContextModelSnapshot : ModelSnapshot
+    [Migration("20250605031240_addedEntryTemplates")]
+    partial class addedEntryTemplates
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -383,8 +386,9 @@ namespace accountingwebapi.Migrations
                     b.Property<DateTimeOffset>("TransactionDate")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<Guid?>("VoidedBy")
-                        .HasColumnType("uuid");
+                    b.Property<string>("VoidedBy")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.Property<DateTime?>("VoidedOn")
                         .HasColumnType("timestamp without time zone");

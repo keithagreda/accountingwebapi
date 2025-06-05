@@ -19,6 +19,9 @@ namespace accountingwebapi.UnitOfWork
             JournalEntry = new JournalEntryRepository(_context);
             Notification = new NotificationRepository(_context);
             SubAccount = new SubAccountRepository(_context);
+            JournalEntryLine = new JournalEntryLineRepository(_context);
+            EntryTemplate = new EntryTemplateRepository(_context);
+            EntryTemplateLine = new EntryTemplateLineRepository(_context);
         }
 
         public IAccountingPeriodRepository AccountingPeriod { get; private set; }
@@ -29,6 +32,9 @@ namespace accountingwebapi.UnitOfWork
         public IJournalEntryRepository JournalEntry { get; private set; }
         public INotificationRepository Notification { get; private set; }
         public ISubAccountRepository SubAccount { get; private set; }
+        public IJournalEntryLineRepository JournalEntryLine { get; private set; }
+        public IEntryTemplateLineRepository EntryTemplateLine { get; private set; }
+        public IEntryTemplateRepository EntryTemplate { get; private set; }
 
         public int Complete()
         {
