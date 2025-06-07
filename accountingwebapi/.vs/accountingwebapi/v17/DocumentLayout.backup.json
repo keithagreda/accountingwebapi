@@ -1,337 +1,353 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Development\\accountingwebapi\\accountingwebapi\\",
+  "WorkspaceRootPath": "E:\\developer\\accountingwebapi\\accountingwebapi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Development\\accountingwebapi\\accountingwebapi\\Migrations\\20250607081950_addedEntryTemplateUsage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250607081950_addedEntryTemplateUsage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\context\\acctgcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:context\\acctgcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\repository\\subaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:repository\\subaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\interfaces\\repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:interfaces\\repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\interfaces\\repositories\\iaccountingperiodrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:interfaces\\repositories\\iaccountingperiodrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\models\\app\\entrytemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:models\\app\\entrytemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\services\\entrytemplateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\services\\entrytemplateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:services\\entrytemplateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\repository\\entrytemplaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:repository\\entrytemplaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\dtos\\entrytemplate\\getentrytemplatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:dtos\\entrytemplate\\getentrytemplatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\services\\journalentryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:services\\journalentryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\dtos\\entrytemplate\\getentrytemplateinputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:dtos\\entrytemplate\\getentrytemplateinputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\dtos\\searchparam\\getjournalentryinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:dtos\\searchparam\\getjournalentryinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\dtos\\entrytemplateline\\getentrytemplatelinedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:dtos\\entrytemplateline\\getentrytemplatelinedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\dtos\\searchparam\\genericsearchparam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:dtos\\searchparam\\genericsearchparam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\dtos\\entrytemplate\\entrytemplatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:dtos\\entrytemplate\\entrytemplatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\dtos\\journalentry\\journalentrylinedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:dtos\\journalentry\\journalentrylinedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\controllers\\journalentrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:controllers\\journalentrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\services\\individualaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:services\\individualaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\models\\app\\journalentryline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:models\\app\\journalentryline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\dtos\\customer\\createoreditcustomerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:dtos\\customer\\createoreditcustomerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\enum\\contactdetailtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:enum\\contactdetailtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Development\\accountingwebapi\\accountingwebapi\\Migrations\\20250607061325_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250607061325_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\services\\subaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:services\\subaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\services\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:services\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\dtos\\customer\\getcustomeroutput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:dtos\\customer\\getcustomeroutput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\dtos\\customer\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:dtos\\customer\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\errors\\errors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\errors\\errors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:errors\\errors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\models\\app\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\models\\app\\entrytemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:models\\app\\entrytemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\interfaces\\repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:interfaces\\repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\services\\entrytemplateusagestatsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:services\\entrytemplateusagestatsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\services\\subaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:services\\subaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\context\\acctgcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:context\\acctgcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\repository\\subaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:repository\\subaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\interfaces\\repositories\\iaccountingperiodrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:interfaces\\repositories\\iaccountingperiodrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\repository\\entrytemplaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:repository\\entrytemplaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\services\\journalentryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:services\\journalentryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\dtos\\searchparam\\getjournalentryinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:dtos\\searchparam\\getjournalentryinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\dtos\\searchparam\\genericsearchparam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:dtos\\searchparam\\genericsearchparam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\dtos\\journalentry\\journalentrylinedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:dtos\\journalentry\\journalentrylinedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\controllers\\journalentrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:controllers\\journalentrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\services\\individualaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:services\\individualaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\models\\app\\journalentryline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:models\\app\\journalentryline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\dtos\\customer\\createoreditcustomerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:dtos\\customer\\createoreditcustomerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\enum\\contactdetailtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:enum\\contactdetailtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Development\\accountingwebapi\\accountingwebapi\\Migrations\\20250607061325_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\services\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:services\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\dtos\\customer\\getcustomeroutput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:dtos\\customer\\getcustomeroutput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\dtos\\customer\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:dtos\\customer\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\models\\app\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:models\\app\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\interfaces\\services\\icompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\interfaces\\services\\icompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:interfaces\\services\\icompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\dtos\\company\\createoreditcompanydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\dtos\\company\\createoreditcompanydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:dtos\\company\\createoreditcompanydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\dtos\\company\\companydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\dtos\\company\\companydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:dtos\\company\\companydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\dtos\\company\\getcompanyinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\dtos\\company\\getcompanyinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:dtos\\company\\getcompanyinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\models\\app\\customercontactdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\models\\app\\customercontactdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:models\\app\\customercontactdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Development\\accountingwebapi\\accountingwebapi\\Migrations\\20250607052310_addedCustomerCompanyJoinTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250607052310_addedCustomerCompanyJoinTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\repository\\companyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\repository\\companyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:repository\\companyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\interfaces\\repositories\\icompanyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\interfaces\\repositories\\icompanyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:interfaces\\repositories\\icompanyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\interfaces\\repositories\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\interfaces\\repositories\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:interfaces\\repositories\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\dtos\\journalentry\\createoreditjournalentrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\dtos\\journalentry\\createoreditjournalentrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:dtos\\journalentry\\createoreditjournalentrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\services\\accountingperiodservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\services\\accountingperiodservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:services\\accountingperiodservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\interfaces\\services\\iaccountingperiodservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\interfaces\\services\\iaccountingperiodservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:interfaces\\services\\iaccountingperiodservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\dtos\\individualaccount\\createoreditindividualaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\dtos\\individualaccount\\createoreditindividualaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:dtos\\individualaccount\\createoreditindividualaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\migrations\\20250605085919_addedtimestamptz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\migrations\\20250605085919_addedtimestamptz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:migrations\\20250605085919_addedtimestamptz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\modelbuilderextensions\\modelbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\modelbuilderextensions\\modelbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:modelbuilderextensions\\modelbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\models\\app\\journalentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\models\\app\\journalentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:models\\app\\journalentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\dtos\\journalentry\\journalentrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\dtos\\journalentry\\journalentrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:dtos\\journalentry\\journalentrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Development\\accountingwebapi\\accountingwebapi\\Migrations\\20250605083048_changesOnJournalEntryChangedVoidedByToGuid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250605083048_changesOnJournalEntryChangedVoidedByToGuid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Development\\accountingwebapi\\accountingwebapi\\Migrations\\20250605083048_changesOnJournalEntryChangedVoidedByToGuid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Development\\accountingwebapi\\accountingwebapi\\Migrations\\20250605082937_removedVoidedBy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250605082937_removedVoidedBy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Development\\accountingwebapi\\accountingwebapi\\Migrations\\20250605082937_removedVoidedBy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Development\\accountingwebapi\\accountingwebapi\\Migrations\\20250605082831_changesOnJournalEntryChangedVoidedByToGuid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250605082831_changesOnJournalEntryChangedVoidedByToGuid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Development\\accountingwebapi\\accountingwebapi\\Migrations\\20250605082831_changesOnJournalEntryChangedVoidedByToGuid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\models\\app\\auditedentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\models\\app\\auditedentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:models\\app\\auditedentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\models\\app\\accountingperiod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\models\\app\\accountingperiod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:models\\app\\accountingperiod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\controllers\\accountingperiodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\controllers\\accountingperiodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:controllers\\accountingperiodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\interfaces\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\interfaces\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:interfaces\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\interceptors\\auditinterceptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\interceptors\\auditinterceptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:interceptors\\auditinterceptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\errors\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\errors\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:errors\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\dtos\\accountingperiod\\accountingperioddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\dtos\\accountingperiod\\accountingperioddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:dtos\\accountingperiod\\accountingperioddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\dtos\\searchparam\\paginatedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\dtos\\searchparam\\paginatedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:dtos\\searchparam\\paginatedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\models\\app\\individualaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\models\\app\\individualaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:models\\app\\individualaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\repository\\journalentrylinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\repository\\journalentrylinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:repository\\journalentrylinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\interfaces\\repositories\\ientrytemplatelinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\interfaces\\repositories\\ientrytemplatelinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:interfaces\\repositories\\ientrytemplatelinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\interfaces\\repositories\\ientrytemplaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\interfaces\\repositories\\ientrytemplaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:interfaces\\repositories\\ientrytemplaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\repository\\individualaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\repository\\individualaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:repository\\individualaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\controllers\\individualaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\controllers\\individualaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:controllers\\individualaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\interfaces\\services\\iindividualaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\interfaces\\services\\iindividualaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:interfaces\\services\\iindividualaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\models\\app\\subaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\models\\app\\subaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:models\\app\\subaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\models\\app\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\models\\app\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:models\\app\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\models\\app\\chartofaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\models\\app\\chartofaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:models\\app\\chartofaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\dtos\\searchparam\\paginationparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\dtos\\searchparam\\paginationparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:dtos\\searchparam\\paginationparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\extensions\\queryableextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\extensions\\queryableextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:extensions\\queryableextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\migrations\\acctgcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\migrations\\acctgcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:migrations\\acctgcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\controllers\\subaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\controllers\\subaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:controllers\\subaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\dtos\\subaccount\\getsubaccountforviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\dtos\\subaccount\\getsubaccountforviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:dtos\\subaccount\\getsubaccountforviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\dtos\\subaccount\\createoreditsubaccountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\dtos\\subaccount\\createoreditsubaccountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:dtos\\subaccount\\createoreditsubaccountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\interfaces\\services\\isubaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\interfaces\\services\\isubaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:interfaces\\services\\isubaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\enum\\accountcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\enum\\accountcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:enum\\accountcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Users\\keith\\AppData\\Roaming\\Microsoft\\UserSecrets\\38daa7e5-6a61-47e8-b014-265aad9c85ae\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\migrations\\20250605083015_removedvoidedby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\migrations\\20250605083015_removedvoidedby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:migrations\\20250605083015_removedvoidedby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\migrations\\20250605083121_changesonjournalentrychangedvoidedbytoguid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\migrations\\20250605083121_changesonjournalentrychangedvoidedbytoguid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:migrations\\20250605083121_changesonjournalentrychangedvoidedbytoguid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\migrations\\20250605031240_addedentrytemplates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\migrations\\20250605031240_addedentrytemplates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:migrations\\20250605031240_addedentrytemplates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\migrations\\20250605024850_addedjournalentryline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\migrations\\20250605024850_addedjournalentryline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:migrations\\20250605024850_addedjournalentryline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|c:\\development\\accountingwebapi\\accountingwebapi\\migrations\\20250605004002_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\migrations\\20250605004002_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:migrations\\20250605004002_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\migrations\\20250607081950_addedentrytemplateusage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:migrations\\20250607081950_addedentrytemplateusage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|e:\\developer\\accountingwebapi\\accountingwebapi\\migrations\\20250607052310_addedcustomercompanyjointable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{590D9B86-61F5-4ABE-9EB2-B0FD6791F5A7}|accountingwebapi.csproj|solutionrelative:migrations\\20250607052310_addedcustomercompanyjointable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -341,176 +357,175 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250607081950_addedEntryTemplateUsage.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Migrations\\20250607081950_addedEntryTemplateUsage.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250607081950_addedEntryTemplateUsage.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Migrations\\20250607081950_addedEntryTemplateUsage.cs",
-              "RelativeToolTip": "Migrations\\20250607081950_addedEntryTemplateUsage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "GetEntryTemplateInputDto.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Dtos\\EntryTemplate\\GetEntryTemplateInputDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\EntryTemplate\\GetEntryTemplateInputDto.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Dtos\\EntryTemplate\\GetEntryTemplateInputDto.cs",
+              "RelativeToolTip": "Dtos\\EntryTemplate\\GetEntryTemplateInputDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T08:19:50.146Z",
+              "WhenOpened": "2025-06-07T12:04:03.468Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EntryTemplate.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Models\\App\\EntryTemplate.cs",
-              "RelativeDocumentMoniker": "Models\\App\\EntryTemplate.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Models\\App\\EntryTemplate.cs",
-              "RelativeToolTip": "Models\\App\\EntryTemplate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "GetEntryTemplateDto.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Dtos\\EntryTemplate\\GetEntryTemplateDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\EntryTemplate\\GetEntryTemplateDto.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Dtos\\EntryTemplate\\GetEntryTemplateDto.cs",
+              "RelativeToolTip": "Dtos\\EntryTemplate\\GetEntryTemplateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T08:07:15.2Z",
+              "WhenOpened": "2025-06-07T12:03:36.069Z",
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EntryTemplateRepository.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Repository\\EntryTemplateRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\EntryTemplateRepository.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Repository\\EntryTemplateRepository.cs",
-              "RelativeToolTip": "Repository\\EntryTemplateRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "GetEntryTemplateLineDto.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Dtos\\EntryTemplateLine\\GetEntryTemplateLineDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\EntryTemplateLine\\GetEntryTemplateLineDto.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Dtos\\EntryTemplateLine\\GetEntryTemplateLineDto.cs",
+              "RelativeToolTip": "Dtos\\EntryTemplateLine\\GetEntryTemplateLineDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T08:07:09.491Z",
+              "WhenOpened": "2025-06-07T12:02:20.46Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "EntryTemplateService.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Services\\EntryTemplateService.cs",
-              "RelativeDocumentMoniker": "Services\\EntryTemplateService.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Services\\EntryTemplateService.cs",
-              "RelativeToolTip": "Services\\EntryTemplateService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T08:06:34.036Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SubAccountRepository.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Repository\\SubAccountRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\SubAccountRepository.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Repository\\SubAccountRepository.cs",
-              "RelativeToolTip": "Repository\\SubAccountRepository.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAcwA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T00:46:27.178Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IAccountingPeriodRepository.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Interfaces\\Repositories\\IAccountingPeriodRepository.cs",
-              "RelativeDocumentMoniker": "Interfaces\\Repositories\\IAccountingPeriodRepository.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Interfaces\\Repositories\\IAccountingPeriodRepository.cs",
-              "RelativeToolTip": "Interfaces\\Repositories\\IAccountingPeriodRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T03:50:34.837Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Interfaces\\Repositories\\IUnitOfWork.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Interfaces\\Repositories\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "Interfaces\\Repositories\\IUnitOfWork.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Interfaces\\Repositories\\IUnitOfWork.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Interfaces\\Repositories\\IUnitOfWork.cs",
               "RelativeToolTip": "Interfaces\\Repositories\\IUnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABLAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA4wBIAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-05T03:51:08.738Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\UnitOfWork\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "UnitOfWork\\UnitOfWork.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\UnitOfWork\\UnitOfWork.cs",
-              "RelativeToolTip": "UnitOfWork\\UnitOfWork.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAABoAAABWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T03:51:24.004Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AcctgContext.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Context\\AcctgContext.cs",
-              "RelativeDocumentMoniker": "Context\\AcctgContext.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Context\\AcctgContext.cs",
-              "RelativeToolTip": "Context\\AcctgContext.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAiwGcAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T14:03:29.335Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "CompanyService.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Services\\CompanyService.cs",
-              "RelativeDocumentMoniker": "Services\\CompanyService.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Services\\CompanyService.cs",
-              "RelativeToolTip": "Services\\CompanyService.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowCoAAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T00:39:33.342Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CustomerService.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Services\\CustomerService.cs",
-              "RelativeDocumentMoniker": "Services\\CustomerService.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Services\\CustomerService.cs",
-              "RelativeToolTip": "Services\\CustomerService.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwCAAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T05:26:19.88Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "CustomerDto.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Dtos\\Customer\\CustomerDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\Customer\\CustomerDto.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Dtos\\Customer\\CustomerDto.cs",
-              "RelativeToolTip": "Dtos\\Customer\\CustomerDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T05:27:09.394Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "GetJournalEntryInput.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Dtos\\SearchParam\\GetJournalEntryInput.cs",
-              "RelativeDocumentMoniker": "Dtos\\SearchParam\\GetJournalEntryInput.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Dtos\\SearchParam\\GetJournalEntryInput.cs",
-              "RelativeToolTip": "Dtos\\SearchParam\\GetJournalEntryInput.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
+              "Title": "AcctgContext.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Context\\AcctgContext.cs",
+              "RelativeDocumentMoniker": "Context\\AcctgContext.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Context\\AcctgContext.cs",
+              "RelativeToolTip": "Context\\AcctgContext.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAiwHQAAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T07:56:22.326Z",
+              "WhenOpened": "2025-05-08T14:03:29.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SubAccountService.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Services\\SubAccountService.cs",
+              "RelativeDocumentMoniker": "Services\\SubAccountService.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Services\\SubAccountService.cs",
+              "RelativeToolTip": "Services\\SubAccountService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAADwvysAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T12:34:41.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EntryTemplate.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Models\\App\\EntryTemplate.cs",
+              "RelativeDocumentMoniker": "Models\\App\\EntryTemplate.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Models\\App\\EntryTemplate.cs",
+              "RelativeToolTip": "Models\\App\\EntryTemplate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T08:07:15.2Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EntryTemplateService.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Services\\EntryTemplateService.cs",
+              "RelativeDocumentMoniker": "Services\\EntryTemplateService.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Services\\EntryTemplateService.cs",
+              "RelativeToolTip": "Services\\EntryTemplateService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T08:06:34.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SubAccountRepository.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Repository\\SubAccountRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\SubAccountRepository.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Repository\\SubAccountRepository.cs",
+              "RelativeToolTip": "Repository\\SubAccountRepository.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAcwA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T00:46:27.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EntryTemplateDto.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Dtos\\EntryTemplate\\EntryTemplateDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\EntryTemplate\\EntryTemplateDto.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Dtos\\EntryTemplate\\EntryTemplateDto.cs",
+              "RelativeToolTip": "Dtos\\EntryTemplate\\EntryTemplateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T08:40:33.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "20250607081950_addedEntryTemplateUsage.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Migrations\\20250607081950_addedEntryTemplateUsage.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250607081950_addedEntryTemplateUsage.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Migrations\\20250607081950_addedEntryTemplateUsage.cs",
+              "RelativeToolTip": "Migrations\\20250607081950_addedEntryTemplateUsage.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T08:19:50.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Errors.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Errors\\Errors.cs",
+              "RelativeDocumentMoniker": "Errors\\Errors.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Errors\\Errors.cs",
+              "RelativeToolTip": "Errors\\Errors.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBQAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T13:11:21.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EntryTemplateUsageStatsService.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Services\\EntryTemplateUsageStatsService.cs",
+              "RelativeDocumentMoniker": "Services\\EntryTemplateUsageStatsService.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Services\\EntryTemplateUsageStatsService.cs",
+              "RelativeToolTip": "Services\\EntryTemplateUsageStatsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T08:20:51.674Z"
             },
             {
               "$type": "Bookmark",
@@ -518,297 +533,333 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ContactDetailType.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Enum\\ContactDetailType.cs",
-              "RelativeDocumentMoniker": "Enum\\ContactDetailType.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Enum\\ContactDetailType.cs",
-              "RelativeToolTip": "Enum\\ContactDetailType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAQAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "UnitOfWork\\UnitOfWork.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeToolTip": "UnitOfWork\\UnitOfWork.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABoAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T05:30:43.239Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "JournalEntryService.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Services\\JournalEntryService.cs",
-              "RelativeDocumentMoniker": "Services\\JournalEntryService.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Services\\JournalEntryService.cs",
-              "RelativeToolTip": "Services\\JournalEntryService.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAowBwAAABlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T03:13:14.37Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "JournalEntryLine.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Models\\App\\JournalEntryLine.cs",
-              "RelativeDocumentMoniker": "Models\\App\\JournalEntryLine.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Models\\App\\JournalEntryLine.cs",
-              "RelativeToolTip": "Models\\App\\JournalEntryLine.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T03:07:55.639Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-05T03:51:24.004Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "JournalEntryController.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Controllers\\JournalEntryController.cs",
-              "RelativeDocumentMoniker": "Controllers\\JournalEntryController.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Controllers\\JournalEntryController.cs",
-              "RelativeToolTip": "Controllers\\JournalEntryController.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAYwCcAAAAIAAAAAAAAAA==",
+              "Title": "IAccountingPeriodRepository.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Interfaces\\Repositories\\IAccountingPeriodRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\Repositories\\IAccountingPeriodRepository.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Interfaces\\Repositories\\IAccountingPeriodRepository.cs",
+              "RelativeToolTip": "Interfaces\\Repositories\\IAccountingPeriodRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T06:24:59.877Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-05T03:50:34.837Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "IndividualAccountService.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Services\\IndividualAccountService.cs",
-              "RelativeDocumentMoniker": "Services\\IndividualAccountService.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Services\\IndividualAccountService.cs",
-              "RelativeToolTip": "Services\\IndividualAccountService.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAnwGEAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T12:46:12.3Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "GenericSearchParam.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Dtos\\SearchParam\\GenericSearchParam.cs",
-              "RelativeDocumentMoniker": "Dtos\\SearchParam\\GenericSearchParam.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Dtos\\SearchParam\\GenericSearchParam.cs",
-              "RelativeToolTip": "Dtos\\SearchParam\\GenericSearchParam.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T01:19:49.284Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "JournalEntryLineDto.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Dtos\\JournalEntry\\JournalEntryLineDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\JournalEntry\\JournalEntryLineDto.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Dtos\\JournalEntry\\JournalEntryLineDto.cs",
-              "RelativeToolTip": "Dtos\\JournalEntry\\JournalEntryLineDto.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAxwA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T07:13:06.388Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "GetCompanyInput.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Dtos\\Company\\GetCompanyInput.cs",
-              "RelativeDocumentMoniker": "Dtos\\Company\\GetCompanyInput.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Dtos\\Company\\GetCompanyInput.cs",
-              "RelativeToolTip": "Dtos\\Company\\GetCompanyInput.cs",
+              "Title": "EntryTemplateRepository.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Repository\\EntryTemplateRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\EntryTemplateRepository.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Repository\\EntryTemplateRepository.cs",
+              "RelativeToolTip": "Repository\\EntryTemplateRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T05:29:23.418Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "Controllers\\CustomerController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCUAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T06:09:50.61Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "CreateOrEditCustomerDto.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Dtos\\Customer\\CreateOrEditCustomerDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\Customer\\CreateOrEditCustomerDto.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Dtos\\Customer\\CreateOrEditCustomerDto.cs",
-              "RelativeToolTip": "Dtos\\Customer\\CreateOrEditCustomerDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T05:33:40.98Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "20250607061325_test.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Migrations\\20250607061325_test.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250607061325_test.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Migrations\\20250607061325_test.cs",
-              "RelativeToolTip": "Migrations\\20250607061325_test.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T06:13:25.986Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "GetCustomerOutput.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Dtos\\Customer\\GetCustomerOutput.cs",
-              "RelativeDocumentMoniker": "Dtos\\Customer\\GetCustomerOutput.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Dtos\\Customer\\GetCustomerOutput.cs",
-              "RelativeToolTip": "Dtos\\Customer\\GetCustomerOutput.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T05:50:58.627Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "SubAccountService.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Services\\SubAccountService.cs",
-              "RelativeDocumentMoniker": "Services\\SubAccountService.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Services\\SubAccountService.cs",
-              "RelativeToolTip": "Services\\SubAccountService.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAUwCsAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T12:34:41.538Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Models\\App\\Customer.cs",
-              "RelativeDocumentMoniker": "Models\\App\\Customer.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Models\\App\\Customer.cs",
-              "RelativeToolTip": "Models\\App\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T10:48:49.355Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAApwC4AAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T13:57:15.995Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "CreateOrEditCompanyDto.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Dtos\\Company\\CreateOrEditCompanyDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\Company\\CreateOrEditCompanyDto.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Dtos\\Company\\CreateOrEditCompanyDto.cs",
-              "RelativeToolTip": "Dtos\\Company\\CreateOrEditCompanyDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T00:44:46.15Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "CompanyDto.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Dtos\\Company\\CompanyDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\Company\\CompanyDto.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Dtos\\Company\\CompanyDto.cs",
-              "RelativeToolTip": "Dtos\\Company\\CompanyDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T00:41:58.067Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Errors.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Errors\\Errors.cs",
-              "RelativeDocumentMoniker": "Errors\\Errors.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Errors\\Errors.cs",
-              "RelativeToolTip": "Errors\\Errors.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAIAywBQAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T13:11:21.77Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-07T08:07:09.491Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 28,
-              "Title": "ICompanyService.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Interfaces\\Services\\ICompanyService.cs",
-              "RelativeDocumentMoniker": "Interfaces\\Services\\ICompanyService.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Interfaces\\Services\\ICompanyService.cs",
-              "RelativeToolTip": "Interfaces\\Services\\ICompanyService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "CompanyService.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Services\\CompanyService.cs",
+              "RelativeDocumentMoniker": "Services\\CompanyService.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Services\\CompanyService.cs",
+              "RelativeToolTip": "Services\\CompanyService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCoAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T01:21:40.211Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-07T00:39:33.342Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "20250607052310_addedCustomerCompanyJoinTable.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Migrations\\20250607052310_addedCustomerCompanyJoinTable.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250607052310_addedCustomerCompanyJoinTable.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Migrations\\20250607052310_addedCustomerCompanyJoinTable.cs",
-              "RelativeToolTip": "Migrations\\20250607052310_addedCustomerCompanyJoinTable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
+              "DocumentIndex": 22,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Services\\CustomerService.cs",
+              "RelativeDocumentMoniker": "Services\\CustomerService.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Services\\CustomerService.cs",
+              "RelativeToolTip": "Services\\CustomerService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T05:23:10.787Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-07T05:26:19.88Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "CustomerContactDetail.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Models\\App\\CustomerContactDetail.cs",
-              "RelativeDocumentMoniker": "Models\\App\\CustomerContactDetail.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Models\\App\\CustomerContactDetail.cs",
-              "RelativeToolTip": "Models\\App\\CustomerContactDetail.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAzAAAAAAAAAA==",
+              "DocumentIndex": 30,
+              "Title": "CustomerDto.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Dtos\\Customer\\CustomerDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\Customer\\CustomerDto.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Dtos\\Customer\\CustomerDto.cs",
+              "RelativeToolTip": "Dtos\\Customer\\CustomerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T10:48:47.643Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-07T05:27:09.394Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "CompanyController.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Controllers\\CompanyController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CompanyController.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Controllers\\CompanyController.cs",
-              "RelativeToolTip": "Controllers\\CompanyController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "GetJournalEntryInput.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Dtos\\SearchParam\\GetJournalEntryInput.cs",
+              "RelativeDocumentMoniker": "Dtos\\SearchParam\\GetJournalEntryInput.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Dtos\\SearchParam\\GetJournalEntryInput.cs",
+              "RelativeToolTip": "Dtos\\SearchParam\\GetJournalEntryInput.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T01:22:52.299Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-07T07:56:22.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ContactDetailType.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Enum\\ContactDetailType.cs",
+              "RelativeDocumentMoniker": "Enum\\ContactDetailType.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Enum\\ContactDetailType.cs",
+              "RelativeToolTip": "Enum\\ContactDetailType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T05:30:43.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "JournalEntryService.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Services\\JournalEntryService.cs",
+              "RelativeDocumentMoniker": "Services\\JournalEntryService.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Services\\JournalEntryService.cs",
+              "RelativeToolTip": "Services\\JournalEntryService.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowBwAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T03:13:14.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "JournalEntryLine.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Models\\App\\JournalEntryLine.cs",
+              "RelativeDocumentMoniker": "Models\\App\\JournalEntryLine.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Models\\App\\JournalEntryLine.cs",
+              "RelativeToolTip": "Models\\App\\JournalEntryLine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T03:07:55.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "JournalEntryController.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Controllers\\JournalEntryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\JournalEntryController.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Controllers\\JournalEntryController.cs",
+              "RelativeToolTip": "Controllers\\JournalEntryController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAYwCcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T06:24:59.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IndividualAccountService.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Services\\IndividualAccountService.cs",
+              "RelativeDocumentMoniker": "Services\\IndividualAccountService.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Services\\IndividualAccountService.cs",
+              "RelativeToolTip": "Services\\IndividualAccountService.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAnwGEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T12:46:12.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GenericSearchParam.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Dtos\\SearchParam\\GenericSearchParam.cs",
+              "RelativeDocumentMoniker": "Dtos\\SearchParam\\GenericSearchParam.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Dtos\\SearchParam\\GenericSearchParam.cs",
+              "RelativeToolTip": "Dtos\\SearchParam\\GenericSearchParam.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T01:19:49.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "JournalEntryLineDto.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Dtos\\JournalEntry\\JournalEntryLineDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\JournalEntry\\JournalEntryLineDto.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Dtos\\JournalEntry\\JournalEntryLineDto.cs",
+              "RelativeToolTip": "Dtos\\JournalEntry\\JournalEntryLineDto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAxwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T07:13:06.388Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 35,
+              "Title": "GetCompanyInput.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Dtos\\Company\\GetCompanyInput.cs",
+              "RelativeDocumentMoniker": "Dtos\\Company\\GetCompanyInput.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Dtos\\Company\\GetCompanyInput.cs",
+              "RelativeToolTip": "Dtos\\Company\\GetCompanyInput.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T05:29:23.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Controllers\\CustomerController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T06:09:50.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CreateOrEditCustomerDto.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Dtos\\Customer\\CreateOrEditCustomerDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\Customer\\CreateOrEditCustomerDto.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Dtos\\Customer\\CreateOrEditCustomerDto.cs",
+              "RelativeToolTip": "Dtos\\Customer\\CreateOrEditCustomerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T05:33:40.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20250607061325_test.cs",
+              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Migrations\\20250607061325_test.cs",
+              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Migrations\\20250607061325_test.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T06:13:25.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "GetCustomerOutput.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Dtos\\Customer\\GetCustomerOutput.cs",
+              "RelativeDocumentMoniker": "Dtos\\Customer\\GetCustomerOutput.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Dtos\\Customer\\GetCustomerOutput.cs",
+              "RelativeToolTip": "Dtos\\Customer\\GetCustomerOutput.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T05:50:58.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Models\\App\\Customer.cs",
+              "RelativeDocumentMoniker": "Models\\App\\Customer.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Models\\App\\Customer.cs",
+              "RelativeToolTip": "Models\\App\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T10:48:49.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAApwC4AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T13:57:15.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CreateOrEditCompanyDto.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Dtos\\Company\\CreateOrEditCompanyDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\Company\\CreateOrEditCompanyDto.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Dtos\\Company\\CreateOrEditCompanyDto.cs",
+              "RelativeToolTip": "Dtos\\Company\\CreateOrEditCompanyDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T00:44:46.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CompanyDto.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Dtos\\Company\\CompanyDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\Company\\CompanyDto.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Dtos\\Company\\CompanyDto.cs",
+              "RelativeToolTip": "Dtos\\Company\\CompanyDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T00:41:58.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ICompanyService.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Interfaces\\Services\\ICompanyService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\Services\\ICompanyService.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Interfaces\\Services\\ICompanyService.cs",
+              "RelativeToolTip": "Interfaces\\Services\\ICompanyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T01:21:40.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "20250607052310_addedCustomerCompanyJoinTable.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Migrations\\20250607052310_addedCustomerCompanyJoinTable.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250607052310_addedCustomerCompanyJoinTable.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Migrations\\20250607052310_addedCustomerCompanyJoinTable.cs",
+              "RelativeToolTip": "Migrations\\20250607052310_addedCustomerCompanyJoinTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T05:23:10.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CustomerContactDetail.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Models\\App\\CustomerContactDetail.cs",
+              "RelativeDocumentMoniker": "Models\\App\\CustomerContactDetail.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Models\\App\\CustomerContactDetail.cs",
+              "RelativeToolTip": "Models\\App\\CustomerContactDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T10:48:47.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CompanyController.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Controllers\\CompanyController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CompanyController.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Controllers\\CompanyController.cs",
+              "RelativeToolTip": "Controllers\\CompanyController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T01:22:52.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
               "Title": "CompanyRepository.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Repository\\CompanyRepository.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Repository\\CompanyRepository.cs",
               "RelativeDocumentMoniker": "Repository\\CompanyRepository.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Repository\\CompanyRepository.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Repository\\CompanyRepository.cs",
               "RelativeToolTip": "Repository\\CompanyRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -816,11 +867,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 39,
               "Title": "ICompanyRepository.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Interfaces\\Repositories\\ICompanyRepository.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Interfaces\\Repositories\\ICompanyRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\Repositories\\ICompanyRepository.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Interfaces\\Repositories\\ICompanyRepository.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Interfaces\\Repositories\\ICompanyRepository.cs",
               "RelativeToolTip": "Interfaces\\Repositories\\ICompanyRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -828,11 +879,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 44,
               "Title": "CreateOrEditIndividualAccount.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Dtos\\IndividualAccount\\CreateOrEditIndividualAccount.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Dtos\\IndividualAccount\\CreateOrEditIndividualAccount.cs",
               "RelativeDocumentMoniker": "Dtos\\IndividualAccount\\CreateOrEditIndividualAccount.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Dtos\\IndividualAccount\\CreateOrEditIndividualAccount.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Dtos\\IndividualAccount\\CreateOrEditIndividualAccount.cs",
               "RelativeToolTip": "Dtos\\IndividualAccount\\CreateOrEditIndividualAccount.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -840,24 +891,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 42,
               "Title": "AccountingPeriodService.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Services\\AccountingPeriodService.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Services\\AccountingPeriodService.cs",
               "RelativeDocumentMoniker": "Services\\AccountingPeriodService.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Services\\AccountingPeriodService.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Services\\AccountingPeriodService.cs",
               "RelativeToolTip": "Services\\AccountingPeriodService.cs",
               "ViewState": "AgIAAFQAAAAAAAAAAAAQwFgAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T06:34:24.039Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-05T06:34:24.039Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 40,
               "Title": "ICustomerRepository.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Interfaces\\Repositories\\ICustomerRepository.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Interfaces\\Repositories\\ICustomerRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\Repositories\\ICustomerRepository.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Interfaces\\Repositories\\ICustomerRepository.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Interfaces\\Repositories\\ICustomerRepository.cs",
               "RelativeToolTip": "Interfaces\\Repositories\\ICustomerRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -865,11 +915,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 41,
               "Title": "CreateOrEditJournalEntryDto.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Dtos\\JournalEntry\\CreateOrEditJournalEntryDto.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Dtos\\JournalEntry\\CreateOrEditJournalEntryDto.cs",
               "RelativeDocumentMoniker": "Dtos\\JournalEntry\\CreateOrEditJournalEntryDto.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Dtos\\JournalEntry\\CreateOrEditJournalEntryDto.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Dtos\\JournalEntry\\CreateOrEditJournalEntryDto.cs",
               "RelativeToolTip": "Dtos\\JournalEntry\\CreateOrEditJournalEntryDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -877,11 +927,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 45,
               "Title": "20250605085919_addedTimeStamptz.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Migrations\\20250605085919_addedTimeStamptz.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Migrations\\20250605085919_addedTimeStamptz.cs",
               "RelativeDocumentMoniker": "Migrations\\20250605085919_addedTimeStamptz.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Migrations\\20250605085919_addedTimeStamptz.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Migrations\\20250605085919_addedTimeStamptz.cs",
               "RelativeToolTip": "Migrations\\20250605085919_addedTimeStamptz.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -889,11 +939,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 47,
               "Title": "JournalEntry.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Models\\App\\JournalEntry.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Models\\App\\JournalEntry.cs",
               "RelativeDocumentMoniker": "Models\\App\\JournalEntry.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Models\\App\\JournalEntry.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Models\\App\\JournalEntry.cs",
               "RelativeToolTip": "Models\\App\\JournalEntry.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -901,11 +951,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 43,
               "Title": "IAccountingPeriodService.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Interfaces\\Services\\IAccountingPeriodService.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Interfaces\\Services\\IAccountingPeriodService.cs",
               "RelativeDocumentMoniker": "Interfaces\\Services\\IAccountingPeriodService.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Interfaces\\Services\\IAccountingPeriodService.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Interfaces\\Services\\IAccountingPeriodService.cs",
               "RelativeToolTip": "Interfaces\\Services\\IAccountingPeriodService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -913,23 +963,21 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 50,
               "Title": "20250605082937_removedVoidedBy.cs",
               "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Migrations\\20250605082937_removedVoidedBy.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250605082937_removedVoidedBy.cs",
               "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Migrations\\20250605082937_removedVoidedBy.cs",
-              "RelativeToolTip": "Migrations\\20250605082937_removedVoidedBy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-05T08:29:37.322Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 81,
               "Title": "20250605083015_removedVoidedBy.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Migrations\\20250605083015_removedVoidedBy.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Migrations\\20250605083015_removedVoidedBy.cs",
               "RelativeDocumentMoniker": "Migrations\\20250605083015_removedVoidedBy.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Migrations\\20250605083015_removedVoidedBy.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Migrations\\20250605083015_removedVoidedBy.cs",
               "RelativeToolTip": "Migrations\\20250605083015_removedVoidedBy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -937,11 +985,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 46,
               "Title": "ModelBuilderExtensions.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\ModelBuilderExtensions\\ModelBuilderExtensions.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\ModelBuilderExtensions\\ModelBuilderExtensions.cs",
               "RelativeDocumentMoniker": "ModelBuilderExtensions\\ModelBuilderExtensions.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\ModelBuilderExtensions\\ModelBuilderExtensions.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\ModelBuilderExtensions\\ModelBuilderExtensions.cs",
               "RelativeToolTip": "ModelBuilderExtensions\\ModelBuilderExtensions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -949,11 +997,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 82,
               "Title": "20250605083121_changesOnJournalEntryChangedVoidedByToGuid.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Migrations\\20250605083121_changesOnJournalEntryChangedVoidedByToGuid.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Migrations\\20250605083121_changesOnJournalEntryChangedVoidedByToGuid.cs",
               "RelativeDocumentMoniker": "Migrations\\20250605083121_changesOnJournalEntryChangedVoidedByToGuid.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Migrations\\20250605083121_changesOnJournalEntryChangedVoidedByToGuid.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Migrations\\20250605083121_changesOnJournalEntryChangedVoidedByToGuid.cs",
               "RelativeToolTip": "Migrations\\20250605083121_changesOnJournalEntryChangedVoidedByToGuid.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -961,11 +1009,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 48,
               "Title": "JournalEntryDto.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Dtos\\JournalEntry\\JournalEntryDto.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Dtos\\JournalEntry\\JournalEntryDto.cs",
               "RelativeDocumentMoniker": "Dtos\\JournalEntry\\JournalEntryDto.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Dtos\\JournalEntry\\JournalEntryDto.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Dtos\\JournalEntry\\JournalEntryDto.cs",
               "RelativeToolTip": "Dtos\\JournalEntry\\JournalEntryDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -973,23 +1021,21 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 49,
               "Title": "20250605083048_changesOnJournalEntryChangedVoidedByToGuid.cs",
               "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Migrations\\20250605083048_changesOnJournalEntryChangedVoidedByToGuid.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250605083048_changesOnJournalEntryChangedVoidedByToGuid.cs",
               "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Migrations\\20250605083048_changesOnJournalEntryChangedVoidedByToGuid.cs",
-              "RelativeToolTip": "Migrations\\20250605083048_changesOnJournalEntryChangedVoidedByToGuid.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-05T08:30:48.45Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 54,
               "Title": "AccountingPeriodController.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Controllers\\AccountingPeriodController.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Controllers\\AccountingPeriodController.cs",
               "RelativeDocumentMoniker": "Controllers\\AccountingPeriodController.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Controllers\\AccountingPeriodController.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Controllers\\AccountingPeriodController.cs",
               "RelativeToolTip": "Controllers\\AccountingPeriodController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -997,11 +1043,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 53,
               "Title": "AccountingPeriod.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Models\\App\\AccountingPeriod.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Models\\App\\AccountingPeriod.cs",
               "RelativeDocumentMoniker": "Models\\App\\AccountingPeriod.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Models\\App\\AccountingPeriod.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Models\\App\\AccountingPeriod.cs",
               "RelativeToolTip": "Models\\App\\AccountingPeriod.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1009,23 +1055,21 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 51,
               "Title": "20250605082831_changesOnJournalEntryChangedVoidedByToGuid.cs",
               "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Migrations\\20250605082831_changesOnJournalEntryChangedVoidedByToGuid.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250605082831_changesOnJournalEntryChangedVoidedByToGuid.cs",
               "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Migrations\\20250605082831_changesOnJournalEntryChangedVoidedByToGuid.cs",
-              "RelativeToolTip": "Migrations\\20250605082831_changesOnJournalEntryChangedVoidedByToGuid.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-05T08:28:31.312Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 52,
               "Title": "AuditedEntity.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Models\\App\\AuditedEntity.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Models\\App\\AuditedEntity.cs",
               "RelativeDocumentMoniker": "Models\\App\\AuditedEntity.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Models\\App\\AuditedEntity.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Models\\App\\AuditedEntity.cs",
               "RelativeToolTip": "Models\\App\\AuditedEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1033,11 +1077,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 55,
               "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Interfaces\\Repositories\\IGenericRepository.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Interfaces\\Repositories\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\Repositories\\IGenericRepository.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Interfaces\\Repositories\\IGenericRepository.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Interfaces\\Repositories\\IGenericRepository.cs",
               "RelativeToolTip": "Interfaces\\Repositories\\IGenericRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1045,11 +1089,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 56,
               "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Repository\\GenericRepository.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Repository\\GenericRepository.cs",
               "RelativeDocumentMoniker": "Repository\\GenericRepository.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Repository\\GenericRepository.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Repository\\GenericRepository.cs",
               "RelativeToolTip": "Repository\\GenericRepository.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1057,11 +1101,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 57,
               "Title": "AuditInterceptor.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Interceptors\\AuditInterceptor.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Interceptors\\AuditInterceptor.cs",
               "RelativeDocumentMoniker": "Interceptors\\AuditInterceptor.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Interceptors\\AuditInterceptor.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Interceptors\\AuditInterceptor.cs",
               "RelativeToolTip": "Interceptors\\AuditInterceptor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1069,11 +1113,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 59,
               "Title": "AccountingPeriodDto.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Dtos\\AccountingPeriod\\AccountingPeriodDto.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Dtos\\AccountingPeriod\\AccountingPeriodDto.cs",
               "RelativeDocumentMoniker": "Dtos\\AccountingPeriod\\AccountingPeriodDto.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Dtos\\AccountingPeriod\\AccountingPeriodDto.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Dtos\\AccountingPeriod\\AccountingPeriodDto.cs",
               "RelativeToolTip": "Dtos\\AccountingPeriod\\AccountingPeriodDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1081,11 +1125,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 58,
               "Title": "Error.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Errors\\Error.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Errors\\Error.cs",
               "RelativeDocumentMoniker": "Errors\\Error.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Errors\\Error.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Errors\\Error.cs",
               "RelativeToolTip": "Errors\\Error.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1093,11 +1137,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 61,
               "Title": "IndividualAccount.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Models\\App\\IndividualAccount.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Models\\App\\IndividualAccount.cs",
               "RelativeDocumentMoniker": "Models\\App\\IndividualAccount.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Models\\App\\IndividualAccount.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Models\\App\\IndividualAccount.cs",
               "RelativeToolTip": "Models\\App\\IndividualAccount.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1105,11 +1149,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 60,
               "Title": "PaginatedResult.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Dtos\\SearchParam\\PaginatedResult.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Dtos\\SearchParam\\PaginatedResult.cs",
               "RelativeDocumentMoniker": "Dtos\\SearchParam\\PaginatedResult.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Dtos\\SearchParam\\PaginatedResult.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Dtos\\SearchParam\\PaginatedResult.cs",
               "RelativeToolTip": "Dtos\\SearchParam\\PaginatedResult.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1117,11 +1161,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 62,
               "Title": "JournalEntryLineRepository.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Repository\\JournalEntryLineRepository.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Repository\\JournalEntryLineRepository.cs",
               "RelativeDocumentMoniker": "Repository\\JournalEntryLineRepository.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Repository\\JournalEntryLineRepository.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Repository\\JournalEntryLineRepository.cs",
               "RelativeToolTip": "Repository\\JournalEntryLineRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1129,11 +1173,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 63,
               "Title": "IEntryTemplateLineRepository.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Interfaces\\Repositories\\IEntryTemplateLineRepository.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Interfaces\\Repositories\\IEntryTemplateLineRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\Repositories\\IEntryTemplateLineRepository.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Interfaces\\Repositories\\IEntryTemplateLineRepository.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Interfaces\\Repositories\\IEntryTemplateLineRepository.cs",
               "RelativeToolTip": "Interfaces\\Repositories\\IEntryTemplateLineRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1141,11 +1185,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 64,
               "Title": "IEntryTemplateRepository.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Interfaces\\Repositories\\IEntryTemplateRepository.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Interfaces\\Repositories\\IEntryTemplateRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\Repositories\\IEntryTemplateRepository.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Interfaces\\Repositories\\IEntryTemplateRepository.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Interfaces\\Repositories\\IEntryTemplateRepository.cs",
               "RelativeToolTip": "Interfaces\\Repositories\\IEntryTemplateRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1153,11 +1197,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 65,
               "Title": "IndividualAccountRepository.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Repository\\IndividualAccountRepository.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Repository\\IndividualAccountRepository.cs",
               "RelativeDocumentMoniker": "Repository\\IndividualAccountRepository.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Repository\\IndividualAccountRepository.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Repository\\IndividualAccountRepository.cs",
               "RelativeToolTip": "Repository\\IndividualAccountRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1165,11 +1209,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 83,
               "Title": "20250605031240_addedEntryTemplates.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Migrations\\20250605031240_addedEntryTemplates.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Migrations\\20250605031240_addedEntryTemplates.cs",
               "RelativeDocumentMoniker": "Migrations\\20250605031240_addedEntryTemplates.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Migrations\\20250605031240_addedEntryTemplates.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Migrations\\20250605031240_addedEntryTemplates.cs",
               "RelativeToolTip": "Migrations\\20250605031240_addedEntryTemplates.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1177,11 +1221,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 67,
               "Title": "IIndividualAccountService.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Interfaces\\Services\\IIndividualAccountService.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Interfaces\\Services\\IIndividualAccountService.cs",
               "RelativeDocumentMoniker": "Interfaces\\Services\\IIndividualAccountService.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Interfaces\\Services\\IIndividualAccountService.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Interfaces\\Services\\IIndividualAccountService.cs",
               "RelativeToolTip": "Interfaces\\Services\\IIndividualAccountService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1189,11 +1233,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 84,
               "Title": "20250605024850_addedJournalEntryLine.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Migrations\\20250605024850_addedJournalEntryLine.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Migrations\\20250605024850_addedJournalEntryLine.cs",
               "RelativeDocumentMoniker": "Migrations\\20250605024850_addedJournalEntryLine.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Migrations\\20250605024850_addedJournalEntryLine.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Migrations\\20250605024850_addedJournalEntryLine.cs",
               "RelativeToolTip": "Migrations\\20250605024850_addedJournalEntryLine.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1201,11 +1245,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 68,
               "Title": "SubAccount.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Models\\App\\SubAccount.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Models\\App\\SubAccount.cs",
               "RelativeDocumentMoniker": "Models\\App\\SubAccount.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Models\\App\\SubAccount.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Models\\App\\SubAccount.cs",
               "RelativeToolTip": "Models\\App\\SubAccount.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1213,11 +1257,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 66,
               "Title": "IndividualAccountController.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Controllers\\IndividualAccountController.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Controllers\\IndividualAccountController.cs",
               "RelativeDocumentMoniker": "Controllers\\IndividualAccountController.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Controllers\\IndividualAccountController.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Controllers\\IndividualAccountController.cs",
               "RelativeToolTip": "Controllers\\IndividualAccountController.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAwwBkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1225,11 +1269,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 70,
               "Title": "ChartOfAccount.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Models\\App\\ChartOfAccount.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Models\\App\\ChartOfAccount.cs",
               "RelativeDocumentMoniker": "Models\\App\\ChartOfAccount.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Models\\App\\ChartOfAccount.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Models\\App\\ChartOfAccount.cs",
               "RelativeToolTip": "Models\\App\\ChartOfAccount.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1237,11 +1281,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 69,
               "Title": "Notification.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Models\\App\\Notification.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Models\\App\\Notification.cs",
               "RelativeDocumentMoniker": "Models\\App\\Notification.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Models\\App\\Notification.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Models\\App\\Notification.cs",
               "RelativeToolTip": "Models\\App\\Notification.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1249,11 +1293,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 72,
               "Title": "QueryableExtension.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Extensions\\QueryableExtension.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Extensions\\QueryableExtension.cs",
               "RelativeDocumentMoniker": "Extensions\\QueryableExtension.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Extensions\\QueryableExtension.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Extensions\\QueryableExtension.cs",
               "RelativeToolTip": "Extensions\\QueryableExtension.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1261,11 +1305,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 71,
               "Title": "PaginationParams.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Dtos\\SearchParam\\PaginationParams.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Dtos\\SearchParam\\PaginationParams.cs",
               "RelativeDocumentMoniker": "Dtos\\SearchParam\\PaginationParams.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Dtos\\SearchParam\\PaginationParams.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Dtos\\SearchParam\\PaginationParams.cs",
               "RelativeToolTip": "Dtos\\SearchParam\\PaginationParams.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1273,11 +1317,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 73,
               "Title": "AcctgContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Migrations\\AcctgContextModelSnapshot.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Migrations\\AcctgContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Migrations\\AcctgContextModelSnapshot.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Migrations\\AcctgContextModelSnapshot.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Migrations\\AcctgContextModelSnapshot.cs",
               "RelativeToolTip": "Migrations\\AcctgContextModelSnapshot.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAiwGQCAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1285,11 +1329,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 85,
               "Title": "20250605004002_init.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Migrations\\20250605004002_init.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Migrations\\20250605004002_init.cs",
               "RelativeDocumentMoniker": "Migrations\\20250605004002_init.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Migrations\\20250605004002_init.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Migrations\\20250605004002_init.cs",
               "RelativeToolTip": "Migrations\\20250605004002_init.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1297,11 +1341,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 77,
               "Title": "ISubAccountService.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Interfaces\\Services\\ISubAccountService.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Interfaces\\Services\\ISubAccountService.cs",
               "RelativeDocumentMoniker": "Interfaces\\Services\\ISubAccountService.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Interfaces\\Services\\ISubAccountService.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Interfaces\\Services\\ISubAccountService.cs",
               "RelativeToolTip": "Interfaces\\Services\\ISubAccountService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1309,11 +1353,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 76,
               "Title": "CreateOrEditSubAccountDto.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Dtos\\SubAccount\\CreateOrEditSubAccountDto.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Dtos\\SubAccount\\CreateOrEditSubAccountDto.cs",
               "RelativeDocumentMoniker": "Dtos\\SubAccount\\CreateOrEditSubAccountDto.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Dtos\\SubAccount\\CreateOrEditSubAccountDto.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Dtos\\SubAccount\\CreateOrEditSubAccountDto.cs",
               "RelativeToolTip": "Dtos\\SubAccount\\CreateOrEditSubAccountDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1321,11 +1365,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 74,
               "Title": "SubAccountController.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Controllers\\SubAccountController.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Controllers\\SubAccountController.cs",
               "RelativeDocumentMoniker": "Controllers\\SubAccountController.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Controllers\\SubAccountController.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Controllers\\SubAccountController.cs",
               "RelativeToolTip": "Controllers\\SubAccountController.cs",
               "ViewState": "AgIAADAAAAAAAAAAAADgvz8AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1333,11 +1377,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 75,
               "Title": "GetSubAccountForViewDto.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Dtos\\SubAccount\\GetSubAccountForViewDto.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Dtos\\SubAccount\\GetSubAccountForViewDto.cs",
               "RelativeDocumentMoniker": "Dtos\\SubAccount\\GetSubAccountForViewDto.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Dtos\\SubAccount\\GetSubAccountForViewDto.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Dtos\\SubAccount\\GetSubAccountForViewDto.cs",
               "RelativeToolTip": "Dtos\\SubAccount\\GetSubAccountForViewDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1345,11 +1389,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 78,
               "Title": "AccountCategory.cs",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\Enum\\AccountCategory.cs",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\Enum\\AccountCategory.cs",
               "RelativeDocumentMoniker": "Enum\\AccountCategory.cs",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\Enum\\AccountCategory.cs",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\Enum\\AccountCategory.cs",
               "RelativeToolTip": "Enum\\AccountCategory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1357,7 +1401,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 80,
               "Title": "secrets.json",
               "DocumentMoniker": "D:\\Users\\keith\\AppData\\Roaming\\Microsoft\\UserSecrets\\38daa7e5-6a61-47e8-b014-265aad9c85ae\\secrets.json",
               "ToolTip": "D:\\Users\\keith\\AppData\\Roaming\\Microsoft\\UserSecrets\\38daa7e5-6a61-47e8-b014-265aad9c85ae\\secrets.json",
@@ -1367,11 +1411,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 79,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Development\\accountingwebapi\\accountingwebapi\\appsettings.json",
+              "DocumentMoniker": "E:\\developer\\accountingwebapi\\accountingwebapi\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Development\\accountingwebapi\\accountingwebapi\\appsettings.json",
+              "ToolTip": "E:\\developer\\accountingwebapi\\accountingwebapi\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",

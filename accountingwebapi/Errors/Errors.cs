@@ -57,6 +57,11 @@ namespace accountingwebapi.Errors
             public static readonly Error ReachedEndDate = new("AccountingPeriod.ReachedEndDate", "Warning! Accounting Period Has Reached It's End Date!");
         }
 
+        public static class EntryTemplate
+        {
+            public static readonly Error MatchinTemplateAlreadyExists = new("EntryTemplate.CheckIfExisting", "Matching template already exists");
+            public static readonly Error DoesNotExist = new("EntryTemplate.CheckIfExisting", "Template Doesn't Exist!");
+        }
         
 
     }
