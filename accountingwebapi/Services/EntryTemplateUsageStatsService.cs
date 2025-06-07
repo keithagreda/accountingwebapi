@@ -1,4 +1,5 @@
 ﻿using accountingwebapi.Interfaces.Repositories;
+using accountingwebapi.Interfaces.Services;
 using accountingwebapi.Models.App;
 
 namespace accountingwebapi.Services
