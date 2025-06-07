@@ -44,7 +44,7 @@ namespace accountingwebapi.Services
         private async Task<Result> Create(CreateOrEditSubAccountDto input)
         {
             if (string.IsNullOrWhiteSpace(input.Name))
-                return Result.Failure(Errors.Errors.Validation.RequiredField("Sub Account Name"));
+                return Result.Failure(Errors.Errors.Validation.RequiredField("Sub Account Name", "SubAccount.Create"));
 
             SubAccount subAccount = new SubAccount
             {

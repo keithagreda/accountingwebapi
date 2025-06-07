@@ -17,8 +17,8 @@ namespace accountingwebapi.Errors
         }
         public static class Validation
         {
-            public static Error RequiredField(string fieldName) =>
-            Error.Custom("Validation.Required", $"{fieldName} is required.");
+            public static Error RequiredField(string fieldName, string? func) =>
+            Error.Custom("Validation.Required", $"{fieldName} is required. {func}");
             public static Error TooShort(string field, int minLength) =>
                 new("Validation.TooShort", $"{field} must be at least {minLength} characters.");
             public static Error AlreadyExists(string field) =>
@@ -56,5 +56,8 @@ namespace accountingwebapi.Errors
             public static readonly Error NoOpen = new("AccountingPeriod.NoOpen", "Invalid Action! There is no open accounting period.");
             public static readonly Error ReachedEndDate = new("AccountingPeriod.ReachedEndDate", "Warning! Accounting Period Has Reached It's End Date!");
         }
+
+        
+
     }
 }

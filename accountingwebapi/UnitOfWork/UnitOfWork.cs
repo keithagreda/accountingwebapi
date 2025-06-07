@@ -1,5 +1,6 @@
 ﻿using accountingwebapi.Context;
 using accountingwebapi.Interfaces.Repositories;
+using accountingwebapi.Models.App;
 using accountingwebapi.Repository;
 using System.Threading.Tasks;
 
@@ -22,6 +23,8 @@ namespace accountingwebapi.UnitOfWork
             JournalEntryLine = new JournalEntryLineRepository(_context);
             EntryTemplate = new EntryTemplateRepository(_context);
             EntryTemplateLine = new EntryTemplateLineRepository(_context);
+            Company = new CompanyRepository(_context);
+            EntryTemplateUsageStats = new EntryTemplateUsageStatsRepository(_context);
         }
 
         public IAccountingPeriodRepository AccountingPeriod { get; private set; }
@@ -35,6 +38,8 @@ namespace accountingwebapi.UnitOfWork
         public IJournalEntryLineRepository JournalEntryLine { get; private set; }
         public IEntryTemplateLineRepository EntryTemplateLine { get; private set; }
         public IEntryTemplateRepository EntryTemplate { get; private set; }
+        public ICompanyRepository Company { get; private set; }
+        public IEntryTemplateUsageStatsRepository EntryTemplateUsageStats { get; set; }
 
         public int Complete()
         {

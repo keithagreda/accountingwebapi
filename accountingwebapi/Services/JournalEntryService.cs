@@ -12,9 +12,11 @@ namespace accountingwebapi.Services
     public class JournalEntryService : IJournalEntryService
     {
         private readonly IUnitOfWork _unitOfWork;
-        public JournalEntryService(IUnitOfWork unitOfWork)
+        private readonly IAccountingPeriodService _accountingPeriodService;
+        public JournalEntryService(IUnitOfWork unitOfWork, IAccountingPeriodService accountingPeriodService)
         {
             _unitOfWork = unitOfWork;
+            _accountingPeriodService = accountingPeriodService;
         }
 
         public async Task<Result<PaginatedResult<JournalEntryDto>>> GetAll(GetJournalEntryInput input)
@@ -24,7 +26,10 @@ namespace accountingwebapi.Services
                 var lines = _unitOfWork.JournalEntryLine.GetQueryable()
                 .Include(e => e.JournalEntryFk)
                 .WhereIf(input.IndividualAccountId != null, e => e.IndividualAccountId == input.IndividualAccountId)
-                .WhereIf(!string.IsNullOrWhiteSpace(input.FilterText), e => e.JournalEntryFk.Description.Contains(input.FilterText))
+                .WhereIf(input.CompanyId != null, e => e.JournalEntryFk.CompanyId == input.CompanyId)
+                .WhereIf(input.CustomerId != null, e => e.JournalEntryFk.CustomerId == input.CustomerId)
+                .WhereIf(!string.IsNullOrWhiteSpace(input.FilterText), e => false || e.JournalEntryFk.Description.Contains(input.FilterText)
+                )
                 .GroupBy(e => e.JournalEntryFk)
                 .Select(e => new JournalEntryDto
                 {
@@ -46,6 +51,7 @@ namespace accountingwebapi.Services
                         Id = e.Id,
                         IsDebit = e.IsDebit,
                         JournalEntryId = e.JournalEntryId,
+                        IndividualAccountDesc = e.IndividualAccountFk.Description,
                         Remarks = e.Remarks
                     }).ToList()
                 })
@@ -89,13 +95,21 @@ namespace accountingwebapi.Services
                 return Result.Failure(Errors.Errors.JournalEntryLine.IsEmpty);
             }
 
+            var accountingPeriod = await _accountingPeriodService.GetCurrentOpenedAccountingPeriod();
+
+            if (accountingPeriod.IsFailure)
+            {
+                return Result.Failure(Errors.Errors.AccountingPeriod.NoOpen);
+            }
+
             //have to automatically get accounting period id
             var journalEntry = new JournalEntry
             {
                 Id = Ulid.NewUlid(),
-                AccountingPeriodId = input.AccountingPeriodId,
+                AccountingPeriodId = accountingPeriod.Value.Id,
                 Description = input.Description,
                 CustomerId = input.CustomerId,
+                CompanyId = input.CompanyId,
             };
 
             var lines = new List<JournalEntryLine>();
@@ -114,6 +128,7 @@ namespace accountingwebapi.Services
 
             await _unitOfWork.JournalEntry.AddAsync(journalEntry);
             await _unitOfWork.JournalEntryLine.AddRangeAsync(lines);
+            await _unitOfWork.CompleteAsync();
             return Result.Success();
         }
     }

@@ -36,6 +36,7 @@ namespace accountingwebapi.Context
         public DbSet<Customer> Customers { get; set; }
         public DbSet<CustomerContactDetail> CustomerContactDetail { get; set; }
         public DbSet<AccountingPeriod> AccountingPeriods { get; set; }
+        public DbSet<Company> Companies { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -108,7 +109,41 @@ namespace accountingwebapi.Context
                 entity.ApplyAuditedEntityConfiguration();
                 entity.Property(e => e.Id).HasConversion<UlidToStringConverter>();
             });
-                
+
+            modelBuilder.Entity<EntryTemplateUsageStats>(entity =>
+            {
+                entity.ApplyAuditedEntityConfiguration();
+                entity.Property(e => e.Id).HasConversion<UlidToStringConverter>();
+                entity.Property(e => e.EntryTemplateId).HasConversion<UlidToStringConverter>();
+            });
+
+            modelBuilder.Entity<Customer>()
+                .HasMany(c => c.AffiliatedCompanies)
+                .WithMany(c => c.Customers)
+                .UsingEntity<Dictionary<string, object>>(
+                    "CustomerCompany",
+                    j => j
+                        .HasOne<Company>()
+                        .WithMany()
+                        .HasForeignKey("CompanyId")
+                        .HasConstraintName("FK_CustomerCompany_Company")
+                        .OnDelete(DeleteBehavior.Cascade),
+                    j => j
+                        .HasOne<Customer>()
+                        .WithMany()
+                        .HasForeignKey("CustomerId")
+                        .HasConstraintName("FK_CustomerCompany_Customer")
+                        .OnDelete(DeleteBehavior.Cascade),
+                    j =>
+                    {
+                        j.HasKey("CustomerId", "CompanyId");
+                        j.ToTable("CustomerCompanies");
+
+                        // ULID as string conversion
+                        j.Property("CustomerId").HasConversion<UlidToStringConverter>();
+                        j.Property("CompanyId").HasConversion<UlidToStringConverter>();
+                    });
+
         }
 
         public class UlidToBytesConverter : ValueConverter<Ulid, byte[]>

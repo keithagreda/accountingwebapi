@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using accountingwebapi.Context;
@@ -11,9 +12,11 @@ using accountingwebapi.Context;
 namespace accountingwebapi.Migrations
 {
     [DbContext(typeof(AcctgContext))]
-    partial class AcctgContextModelSnapshot : ModelSnapshot
+    [Migration("20250607052310_addedCustomerCompanyJoinTable")]
+    partial class addedCustomerCompanyJoinTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -297,47 +300,6 @@ namespace accountingwebapi.Migrations
                     b.HasIndex("TemplateId");
 
                     b.ToTable("EntryTemplateLines");
-                });
-
-            modelBuilder.Entity("accountingwebapi.Models.App.EntryTemplateUsageStats", b =>
-                {
-                    b.Property<string>("Id")
-                        .HasColumnType("character varying(26)");
-
-                    b.Property<Guid>("CreatedBy")
-                        .HasColumnType("uuid");
-
-                    b.Property<DateTimeOffset>("CreationTime")
-                        .HasColumnType("timestamptz");
-
-                    b.Property<Guid?>("DeletedBy")
-                        .HasColumnType("uuid");
-
-                    b.Property<DateTimeOffset?>("DeletionTime")
-                        .HasColumnType("timestamptz");
-
-                    b.Property<string>("EntryTemplateId")
-                        .IsRequired()
-                        .HasColumnType("character varying(26)");
-
-                    b.Property<bool>("IsDeleted")
-                        .HasColumnType("boolean");
-
-                    b.Property<bool>("IsModified")
-                        .HasColumnType("boolean");
-
-                    b.Property<Guid?>("ModifiedBy")
-                        .HasColumnType("uuid");
-
-                    b.Property<DateTimeOffset?>("ModifiedTime")
-                        .HasColumnType("timestamptz");
-
-                    b.Property<int>("UsageCount")
-                        .HasColumnType("integer");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("EntryTemplateUsageStats");
                 });
 
             modelBuilder.Entity("accountingwebapi.Models.App.IndividualAccount", b =>

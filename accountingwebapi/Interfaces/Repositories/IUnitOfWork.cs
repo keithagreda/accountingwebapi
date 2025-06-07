@@ -13,6 +13,8 @@
         IJournalEntryLineRepository JournalEntryLine { get; }
         IEntryTemplateRepository EntryTemplate { get; }
         IEntryTemplateLineRepository EntryTemplateLine { get; }
+        ICompanyRepository Company { get; }
+        IEntryTemplateUsageStatsRepository EntryTemplateUsageStats { get; }
 
         int Complete();
         Task<int> CompleteAsync();

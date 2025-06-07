@@ -5,12 +5,10 @@
         public Ulid? Id { get; set; }
         public DateTimeOffset TransactionDate { get; set; }
         public string? Description { get; set; }
-
         public Ulid CompanyId { get; set; }
-
         public Ulid? CustomerId { get; set; }
 
-        public int AccountingPeriodId { get; set; }
+        //public int AccountingPeriodId { get; set; }
 
         // Adjustments (Self-referencing)
         public Ulid? AdjustsEntryId { get; set; }

@@ -71,35 +71,44 @@ namespace accountingwebapi.Services
 
         public async Task<Result> SeedIndividualAccount()
         {
-            var subAccounts = _unitOfWork.SubAccount.GetQueryable();
+            var subAccounts = await _unitOfWork.SubAccount.GetQueryable().Select(e => new
+            {
+                e.Name,
+                e.Id
+            }).ToListAsync();
 
             var listOfIndividualAccount = new List<IndividualAccount>
             {
                 new IndividualAccount
                 {
                     Description = "Purchase Order",
-                    SubAccountId = subAccounts.FirstOrDefaultAsync(e => e.Name == "Current Assets").Result.Id,
+                    SubAccountId = subAccounts.FirstOrDefault(e => e.Name == "Current Assets").Id,
                 },
                 new IndividualAccount
                 {
                     Description = "Inventory",
-                    SubAccountId = subAccounts.FirstOrDefaultAsync(e => e.Name == "Current Assets").Result.Id,
+                    SubAccountId = subAccounts.FirstOrDefault(e => e.Name == "Current Assets").Id,
                 },
                 new IndividualAccount
                 {
                     Description = "Bank",
-                    SubAccountId = subAccounts.FirstOrDefaultAsync(e => e.Name == "Current Assets").Result.Id,
+                    SubAccountId = subAccounts.FirstOrDefault(e => e.Name == "Current Assets").Id,
                 },
                 new IndividualAccount
                 {
                     Description = "Equity",
-                    SubAccountId = subAccounts.FirstOrDefaultAsync(e => e.Name == "Current Assets").Result.Id,
+                    SubAccountId = subAccounts.FirstOrDefault(e => e.Name == "Current Assets").Id,
                 },
                 new IndividualAccount
                 {
                     Description = "Sales",
-                    SubAccountId = subAccounts.FirstOrDefaultAsync(e => e.Name == "Revenue").Result.Id,
+                    SubAccountId = subAccounts.FirstOrDefault(e => e.Name == "Revenue").Id,
                 },
+                new IndividualAccount
+                {
+                    Description = "Cash",
+                    SubAccountId = subAccounts.FirstOrDefault(e => e.Name == "Current Assets").Id
+                }
 
             };
 

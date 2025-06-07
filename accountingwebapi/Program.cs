@@ -50,6 +50,8 @@ builder.Services.AddScoped<ISubAccountService, SubAccountService>();
 builder.Services.AddScoped<IIndividualAccountService, IndividualAccountService>();
 builder.Services.AddScoped<IJournalEntryService, JournalEntryService>();
 builder.Services.AddScoped<IAccountingPeriodService, AccountingPeriodService>();
+builder.Services.AddScoped<ICompanyService, CompanyService>();
+builder.Services.AddScoped<ICustomerService, CustomerService>();
 
 
 var app = builder.Build();
