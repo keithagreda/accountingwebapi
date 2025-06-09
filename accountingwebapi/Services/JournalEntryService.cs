@@ -1,4 +1,6 @@
-﻿using accountingwebapi.Dtos.JournalEntry;
+﻿using accountingwebapi.Dtos.EntryTemplate;
+using accountingwebapi.Dtos.EntryTemplateLine;
+using accountingwebapi.Dtos.JournalEntry;
 using accountingwebapi.Dtos.Result;
 using accountingwebapi.Dtos.SearchParam;
 using accountingwebapi.Extensions;
@@ -13,10 +15,14 @@ namespace accountingwebapi.Services
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IAccountingPeriodService _accountingPeriodService;
-        public JournalEntryService(IUnitOfWork unitOfWork, IAccountingPeriodService accountingPeriodService)
+        private readonly IEntryTemplateService _entryTemplateService;
+        private readonly IEntryTemplateUsageStatsService _entryTemplateUsageStatsService;
+        public JournalEntryService(IUnitOfWork unitOfWork, IAccountingPeriodService accountingPeriodService, IEntryTemplateService entryTemplateService, IEntryTemplateUsageStatsService entryTemplateUsageStatsService)
         {
             _unitOfWork = unitOfWork;
             _accountingPeriodService = accountingPeriodService;
+            _entryTemplateService = entryTemplateService;
+            _entryTemplateUsageStatsService = entryTemplateUsageStatsService;
         }
 
         public async Task<Result<PaginatedResult<JournalEntryDto>>> GetAll(GetJournalEntryInput input)
@@ -73,27 +79,67 @@ namespace accountingwebapi.Services
             }
         }
 
-        public async Task<Result> CreateOrEdit(CreateOrEditJournalEntryDto input)
-        {
-            if (input.Id == null)
-            {
-                return await Create(input);
-            }
-
-            return await Edit(input);
-        }
-
-        private async Task<Result> Edit(CreateOrEditJournalEntryDto input)
-        {
-            return Result.Failure(Errors.Errors.UninmplementedFunction);
-        }
-
-        private async Task<Result> Create(CreateOrEditJournalEntryDto input)
+        public async Task<Result> CreateOrEdit(CreateOrEditJournalEntryDto input, Ulid? templateId)
         {
             if (!input.Lines.Any())
             {
                 return Result.Failure(Errors.Errors.JournalEntryLine.IsEmpty);
             }
+            if (templateId is null)
+            {
+                CreateOrEditEntryTemplateDto entryTemplate = new CreateOrEditEntryTemplateDto
+                {
+                    EntryType = input.Description,
+                };
+
+                List<CreateOrEditEntryTemplateLineDto> entryTemplateLines = new List<CreateOrEditEntryTemplateLineDto>();
+
+                foreach(var line in input.Lines)
+                {
+                    CreateOrEditEntryTemplateLineDto res = new CreateOrEditEntryTemplateLineDto
+                    {
+                        AccountId = line.IndividualAccountId,
+                        IsDebit = line.IsDebit,
+                    };
+                    entryTemplateLines.Add(res);
+                }
+
+                entryTemplate.EntryTemplateLineDtos = entryTemplateLines;
+
+                var existingTemp = await _entryTemplateService.CheckIfExisting(entryTemplateLines);
+
+                //means that template is still not existing 
+                //and can still create template
+                if (existingTemp.IsFailure)
+                {
+                    var tempId = await _entryTemplateService.CreateOrEdit(entryTemplate);
+                    
+                    ////set param templateId 
+                    //templateId = tempId.Value;
+                    ////after that add or create score for this template
+                    //if (tempId.IsSuccess)
+                    //{
+                    //    //score
+                    //    await _entryTemplateUsageStatsService.AddUsage(tempId.Value);
+                    //}
+                }
+            }
+            if (input.Id == null)
+            {
+                return await Create(input, (Ulid)templateId);
+            }
+
+            return await Edit(input, (Ulid)templateId);
+        }
+
+        private async Task<Result> Edit(CreateOrEditJournalEntryDto input, Ulid templateId)
+        {
+            return Result.Failure(Errors.Errors.UninmplementedFunction);
+        }
+
+        private async Task<Result> Create(CreateOrEditJournalEntryDto input, Ulid templateId)
+        {
+            
 
             var accountingPeriod = await _accountingPeriodService.GetCurrentOpenedAccountingPeriod();
 
@@ -128,6 +174,10 @@ namespace accountingwebapi.Services
 
             await _unitOfWork.JournalEntry.AddAsync(journalEntry);
             await _unitOfWork.JournalEntryLine.AddRangeAsync(lines);
+
+            //addscore 
+            await _entryTemplateUsageStatsService.AddUsage(templateId);
+
             await _unitOfWork.CompleteAsync();
             return Result.Success();
         }

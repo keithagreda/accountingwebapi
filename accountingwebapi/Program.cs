@@ -1,6 +1,7 @@
 ﻿using accountingwebapi.Context;
 using accountingwebapi.Interfaces.Repositories;
 using accountingwebapi.Interfaces.Services;
+using accountingwebapi.Models.App;
 using accountingwebapi.Services;
 using accountingwebapi.UnitOfWork;
 using Microsoft.EntityFrameworkCore;
@@ -52,6 +53,8 @@ builder.Services.AddScoped<IJournalEntryService, JournalEntryService>();
 builder.Services.AddScoped<IAccountingPeriodService, AccountingPeriodService>();
 builder.Services.AddScoped<ICompanyService, CompanyService>();
 builder.Services.AddScoped<ICustomerService, CustomerService>();
+builder.Services.AddScoped<IEntryTemplateService, EntryTemplateService>();
+builder.Services.AddScoped<IEntryTemplateUsageStatsService, EntryTemplateUsageStatsService>();
 
 
 var app = builder.Build();

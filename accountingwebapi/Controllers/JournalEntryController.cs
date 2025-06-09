@@ -36,14 +36,14 @@ namespace accountingwebapi.Controllers
         }
 
         [HttpPost("CreateOrEdit")]
-        public async Task<ActionResult<Result>> CreateOrEdit(CreateOrEditJournalEntryDto input)
+        public async Task<ActionResult<Result>> CreateOrEdit(CreateOrEditJournalEntryDto input, Ulid? templateId)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            var res = await _journalEntryService.CreateOrEdit(input);
+            var res = await _journalEntryService.CreateOrEdit(input, templateId);
 
             if (res.IsSuccess)
             {

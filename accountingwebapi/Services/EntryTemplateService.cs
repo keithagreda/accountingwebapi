@@ -83,7 +83,7 @@ namespace accountingwebapi.Services
             return await Edit(input);
         }
 
-        private async Task<Result<Ulid>> CheckIfExisting(List<CreateOrEditEntryTemplateLineDto> lines)
+        public async Task<Result<Ulid>> CheckIfExisting(List<CreateOrEditEntryTemplateLineDto> lines)
         {
             var query = _unitOfWork.EntryTemplate.GetQueryable();
             var score = _unitOfWork.EntryTemplateUsageStats.GetQueryable();
